@@ -1,0 +1,11 @@
+# Data y archivos internos no publicables
+data MITSU/
+Review informe Retail.pdf
+
+# Claude session
+.claude/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
