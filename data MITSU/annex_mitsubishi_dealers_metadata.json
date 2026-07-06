@@ -1,0 +1,162 @@
+{
+  "annex_id": "mitsubishi_dealer_metrics",
+  "title": "Métricas de todos los dealers Mitsubishi",
+  "description": "Detalle por dealer de volumen de reviews, valoración media y eNPS para Total, Sales y After Sales.",
+  "scope": {
+    "brand": "Mitsubishi",
+    "brand_id": 34,
+    "period": {
+      "from": "2025-12-25",
+      "to": "2026-06-25",
+      "inclusive": true
+    },
+    "dealers_registered": 159,
+    "dealers_active": 157,
+    "dealers_without_reviews": 2,
+    "includes_dealers_without_reviews": true
+  },
+  "brand_summary": {
+    "total": {
+      "reviews": 4512,
+      "average_rating": 4.691,
+      "enps": 81.6
+    },
+    "sales": {
+      "reviews": 496,
+      "average_rating": 4.546,
+      "enps": 75.4
+    },
+    "after_sales": {
+      "reviews": 1792,
+      "average_rating": 4.613,
+      "enps": 78.35
+    }
+  },
+  "dealers_without_reviews": [
+    "DWINDO - CAKUNG (100703)",
+    "MAHLIGAI - SUKABUMI (100685)"
+  ],
+  "metric_definitions": {
+    "total_reviews": "Todas las reviews publicadas por el dealer dentro del periodo.",
+    "total_average_rating": "Media de estrellas de todas las reviews del periodo.",
+    "total_enps": "eNPS calculado sobre todas las reviews, incluidas las no clasificadas.",
+    "sales_reviews": "Reviews clasificadas como Sales.",
+    "sales_average_rating": "Media de estrellas de las reviews clasificadas como Sales.",
+    "sales_enps": "eNPS calculado únicamente sobre las reviews de Sales.",
+    "after_sales_reviews": "Reviews clasificadas como After Sales.",
+    "after_sales_average_rating": "Media de estrellas de las reviews clasificadas como After Sales.",
+    "after_sales_enps": "eNPS calculado únicamente sobre las reviews de After Sales."
+  },
+  "enps_methodology": {
+    "formula": "100 * (reviews_5_stars - reviews_1_star - reviews_2_stars - reviews_3_stars) / total_reviews",
+    "four_star_reviews": "Pasivas: no suman ni restan en el numerador, pero forman parte del denominador.",
+    "zero_denominator": "El resultado es null, no 0.",
+    "warning": "Es una adaptación basada en estrellas, no el eNPS tradicional de empleados."
+  },
+  "null_rules": {
+    "reviews": 0,
+    "average_rating": null,
+    "enps": null
+  },
+  "file_structure": {
+    "primary_file": "annex_mitsubishi_dealers.csv",
+    "row_granularity": "Un dealer Mitsubishi por fila",
+    "expected_rows": 159,
+    "encoding": "UTF-8",
+    "decimal_separator": ".",
+    "missing_value": "null"
+  },
+  "fields": [
+    {
+      "name": "dealer",
+      "type": "string",
+      "description": "Nombre completo del dealer."
+    },
+    {
+      "name": "total_reviews",
+      "type": "integer"
+    },
+    {
+      "name": "total_average_rating",
+      "type": [
+        "number",
+        "null"
+      ],
+      "range": [
+        1,
+        5
+      ]
+    },
+    {
+      "name": "total_enps",
+      "type": [
+        "number",
+        "null"
+      ],
+      "range": [
+        -100,
+        100
+      ]
+    },
+    {
+      "name": "sales_reviews",
+      "type": "integer"
+    },
+    {
+      "name": "sales_average_rating",
+      "type": [
+        "number",
+        "null"
+      ],
+      "range": [
+        1,
+        5
+      ]
+    },
+    {
+      "name": "sales_enps",
+      "type": [
+        "number",
+        "null"
+      ],
+      "range": [
+        -100,
+        100
+      ]
+    },
+    {
+      "name": "after_sales_reviews",
+      "type": "integer"
+    },
+    {
+      "name": "after_sales_average_rating",
+      "type": [
+        "number",
+        "null"
+      ],
+      "range": [
+        1,
+        5
+      ]
+    },
+    {
+      "name": "after_sales_enps",
+      "type": [
+        "number",
+        "null"
+      ],
+      "range": [
+        -100,
+        100
+      ]
+    }
+  ],
+  "quality_notes": [
+    "Las métricas se han calculado directamente sobre las reviews publicadas durante el periodo.",
+    "El eNPS de Mitsubishi no es la media simple del eNPS de sus dealers.",
+    "Los resultados de dealers con pocas reviews deben considerarse indicativos.",
+    "Un eNPS de 100 o -100 basado en una o dos reviews no tiene la misma robustez que el mismo resultado con más de 100 reviews.",
+    "Las reviews no clasificadas como Sales o After Sales están incluidas en las métricas totales.",
+    "Las consultas utilizadas no devolvieron un campo errors."
+  ]
+}

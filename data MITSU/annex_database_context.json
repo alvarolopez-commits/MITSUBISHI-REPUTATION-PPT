@@ -1,0 +1,346 @@
+{
+  "annex_id": "database_context_by_brand",
+  "title": "Contexto global de la base de datos y métricas por marca",
+  "scope": {
+    "period": {
+      "from": "2025-12-25",
+      "to": "2026-06-25",
+      "inclusive": true
+    },
+    "universe": "Todos los retailers y reviews de la base de datos durante el periodo",
+    "not_limited_to_selected_211_dealers": true,
+    "selected_211_dealers_reference": {
+      "selection_rule": "Más de 100 reviews durante el periodo",
+      "dealers": 211
+    }
+  },
+  "definitions": {
+    "retailers_total": "Todos los retailers registrados en la base de datos",
+    "retailers_active": "Retailers con al menos una review publicada durante el periodo",
+    "average_rating": "Media de estrellas ponderada por el número de reviews",
+    "reviews_per_active_retailer": "Reviews divididas entre retailers con actividad en el ámbito correspondiente",
+    "enps": "100 × (reviews de 5 estrellas - reviews de 1, 2 y 3 estrellas) / total de reviews",
+    "four_star_reviews": "Las reviews de 4 estrellas son pasivas y forman parte del denominador",
+    "null_rule": "Cuando no existen reviews en un ámbito, average_rating y enps son null"
+  },
+  "global": {
+    "brands_total": 11,
+    "brands_active": 11,
+    "retailers_total": 1069,
+    "retailers_active": 1031,
+    "retailer_activity_rate_percent": 96.45,
+    "total": {
+      "reviews": 78179,
+      "reviews_per_active_retailer": 75.83,
+      "average_rating": 4.811,
+      "enps": 88.95
+    },
+    "sales": {
+      "brands_active": 9,
+      "retailers_active": 700,
+      "reviews": 10790,
+      "reviews_per_active_retailer": 15.41,
+      "review_share_percent": 13.8,
+      "average_rating": 4.758,
+      "enps": 87.13
+    },
+    "after_sales": {
+      "brands_active": 11,
+      "retailers_active": 926,
+      "reviews": 37076,
+      "reviews_per_active_retailer": 40.04,
+      "review_share_percent": 47.42,
+      "average_rating": 4.768,
+      "enps": 86.53
+    },
+    "unclassified": {
+      "reviews": 30313,
+      "review_share_percent": 38.78
+    }
+  },
+  "brands": [
+    {
+      "brand": "Bengkel Mobil BOS",
+      "retailers_total": 28,
+      "retailers_active": 28,
+      "total": {
+        "reviews": 7001,
+        "reviews_per_active_retailer": 250.04,
+        "average_rating": 4.919,
+        "enps": 94.53
+      },
+      "sales": {
+        "retailers_active": 1,
+        "reviews": 1,
+        "reviews_per_active_retailer": 1.0,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "retailers_active": 28,
+        "reviews": 6986,
+        "reviews_per_active_retailer": 249.5,
+        "average_rating": 4.919,
+        "enps": 94.52
+      }
+    },
+    {
+      "brand": "B-Quik",
+      "retailers_total": 41,
+      "retailers_active": 41,
+      "total": {
+        "reviews": 7578,
+        "reviews_per_active_retailer": 184.83,
+        "average_rating": 4.773,
+        "enps": 86.26
+      },
+      "sales": {
+        "retailers_active": 0,
+        "reviews": 0,
+        "reviews_per_active_retailer": null,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "retailers_active": 41,
+        "reviews": 7565,
+        "reviews_per_active_retailer": 184.51,
+        "average_rating": 4.773,
+        "enps": 86.24
+      }
+    },
+    {
+      "brand": "BYD",
+      "retailers_total": 76,
+      "retailers_active": 74,
+      "total": {
+        "reviews": 4054,
+        "reviews_per_active_retailer": 54.78,
+        "average_rating": 4.686,
+        "enps": 82.63
+      },
+      "sales": {
+        "retailers_active": 70,
+        "reviews": 1257,
+        "reviews_per_active_retailer": 17.96,
+        "average_rating": 4.744,
+        "enps": 86.63
+      },
+      "after_sales": {
+        "retailers_active": 67,
+        "reviews": 1020,
+        "reviews_per_active_retailer": 15.22,
+        "average_rating": 4.459,
+        "enps": 70.0
+      }
+    },
+    {
+      "brand": "Chery",
+      "retailers_total": 74,
+      "retailers_active": 68,
+      "total": {
+        "reviews": 2594,
+        "reviews_per_active_retailer": 38.15,
+        "average_rating": 4.462,
+        "enps": 71.28
+      },
+      "sales": {
+        "retailers_active": 57,
+        "reviews": 842,
+        "reviews_per_active_retailer": 14.77,
+        "average_rating": 4.325,
+        "enps": 64.25
+      },
+      "after_sales": {
+        "retailers_active": 55,
+        "reviews": 505,
+        "reviews_per_active_retailer": 9.18,
+        "average_rating": 4.071,
+        "enps": 50.1
+      }
+    },
+    {
+      "brand": "Honda",
+      "retailers_total": 188,
+      "retailers_active": 180,
+      "total": {
+        "reviews": 14464,
+        "reviews_per_active_retailer": 80.36,
+        "average_rating": 4.853,
+        "enps": 91.44
+      },
+      "sales": {
+        "retailers_active": 115,
+        "reviews": 1481,
+        "reviews_per_active_retailer": 12.88,
+        "average_rating": 4.797,
+        "enps": 89.13
+      },
+      "after_sales": {
+        "retailers_active": 167,
+        "reviews": 5105,
+        "reviews_per_active_retailer": 30.57,
+        "average_rating": 4.76,
+        "enps": 86.6
+      }
+    },
+    {
+      "brand": "Hyundai",
+      "retailers_total": 107,
+      "retailers_active": 99,
+      "total": {
+        "reviews": 5021,
+        "reviews_per_active_retailer": 50.72,
+        "average_rating": 4.627,
+        "enps": 79.61
+      },
+      "sales": {
+        "retailers_active": 81,
+        "reviews": 1112,
+        "reviews_per_active_retailer": 13.73,
+        "average_rating": 4.489,
+        "enps": 73.47
+      },
+      "after_sales": {
+        "retailers_active": 78,
+        "reviews": 1430,
+        "reviews_per_active_retailer": 18.33,
+        "average_rating": 4.392,
+        "enps": 66.36
+      }
+    },
+    {
+      "brand": "Lexus",
+      "retailers_total": 3,
+      "retailers_active": 3,
+      "total": {
+        "reviews": 190,
+        "reviews_per_active_retailer": 63.33,
+        "average_rating": 4.805,
+        "enps": 88.95
+      },
+      "sales": {
+        "retailers_active": 3,
+        "reviews": 16,
+        "reviews_per_active_retailer": 5.33,
+        "average_rating": 4.75,
+        "enps": 87.5
+      },
+      "after_sales": {
+        "retailers_active": 3,
+        "reviews": 118,
+        "reviews_per_active_retailer": 39.33,
+        "average_rating": 4.907,
+        "enps": 94.07
+      }
+    },
+    {
+      "brand": "Mazda",
+      "retailers_total": 26,
+      "retailers_active": 26,
+      "total": {
+        "reviews": 413,
+        "reviews_per_active_retailer": 15.88,
+        "average_rating": 4.504,
+        "enps": 70.46
+      },
+      "sales": {
+        "retailers_active": 14,
+        "reviews": 28,
+        "reviews_per_active_retailer": 2.0,
+        "average_rating": 4.393,
+        "enps": 67.86
+      },
+      "after_sales": {
+        "retailers_active": 24,
+        "reviews": 179,
+        "reviews_per_active_retailer": 7.46,
+        "average_rating": 4.302,
+        "enps": 59.78
+      }
+    },
+    {
+      "brand": "Mitsubishi",
+      "retailers_total": 159,
+      "retailers_active": 157,
+      "total": {
+        "reviews": 4512,
+        "reviews_per_active_retailer": 28.74,
+        "average_rating": 4.691,
+        "enps": 81.6
+      },
+      "sales": {
+        "retailers_active": 83,
+        "reviews": 496,
+        "reviews_per_active_retailer": 5.98,
+        "average_rating": 4.546,
+        "enps": 75.4
+      },
+      "after_sales": {
+        "retailers_active": 134,
+        "reviews": 1792,
+        "reviews_per_active_retailer": 13.37,
+        "average_rating": 4.613,
+        "enps": 78.35
+      }
+    },
+    {
+      "brand": "Otoklix",
+      "retailers_total": 4,
+      "retailers_active": 4,
+      "total": {
+        "reviews": 272,
+        "reviews_per_active_retailer": 68.0,
+        "average_rating": 4.386,
+        "enps": 65.44
+      },
+      "sales": {
+        "retailers_active": 0,
+        "reviews": 0,
+        "reviews_per_active_retailer": null,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "retailers_active": 4,
+        "reviews": 272,
+        "reviews_per_active_retailer": 68.0,
+        "average_rating": 4.386,
+        "enps": 65.44
+      }
+    },
+    {
+      "brand": "Toyota",
+      "retailers_total": 363,
+      "retailers_active": 351,
+      "total": {
+        "reviews": 32080,
+        "reviews_per_active_retailer": 91.4,
+        "average_rating": 4.875,
+        "enps": 92.41
+      },
+      "sales": {
+        "retailers_active": 276,
+        "reviews": 5557,
+        "reviews_per_active_retailer": 20.13,
+        "average_rating": 4.89,
+        "enps": 94.04
+      },
+      "after_sales": {
+        "retailers_active": 325,
+        "reviews": 12104,
+        "reviews_per_active_retailer": 37.24,
+        "average_rating": 4.818,
+        "enps": 89.36
+      }
+    }
+  ],
+  "quality_notes": [
+    "Las métricas por marca se han calculado agregando directamente las reviews de la marca.",
+    "El eNPS de una marca no es la media simple del eNPS de sus retailers.",
+    "Los resultados con poco volumen deben interpretarse con cautela.",
+    "Bengkel Mobil BOS tiene una única review clasificada como Sales, por lo que su eNPS Sales no es representativo.",
+    "B-Quik y Otoklix no tienen reviews clasificadas como Sales durante el periodo.",
+    "Las reviews sin clasificar forman parte del eNPS total, pero no de Sales ni After Sales."
+  ]
+}

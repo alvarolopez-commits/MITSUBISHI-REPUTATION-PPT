@@ -1,0 +1,76 @@
+{
+  "status": "partially_validated",
+  "period": {
+    "from": "2025-12-25",
+    "to": "2026-06-25"
+  },
+  "checks": [
+    {
+      "name": "dealer_count",
+      "status": "pass",
+      "expected": 211,
+      "observed": 211
+    },
+    {
+      "name": "selection_rule",
+      "status": "pass",
+      "rule": "reviews > 100 dentro del periodo"
+    },
+    {
+      "name": "ranking_top_10",
+      "status": "pass",
+      "description": "Orden descendente por eNPS total"
+    },
+    {
+      "name": "ranking_bottom_10",
+      "status": "pass",
+      "description": "Orden ascendente por eNPS total"
+    },
+    {
+      "name": "driver_minimum_mentions",
+      "status": "pass",
+      "rule": "mentions_total >= 3"
+    },
+    {
+      "name": "barrier_minimum_mentions",
+      "status": "pass",
+      "rule": "mentions_total > 3"
+    },
+    {
+      "name": "category_queries_errors",
+      "status": "pass",
+      "description": "Las consultas de categorías y subcategorías utilizadas no devolvieron errors"
+    },
+    {
+      "name": "full_row_reconciliation",
+      "status": "not_recomputed",
+      "description": "No se volvió a recalcular en este empaquetado la igualdad de estrellas y áreas para cada una de las 211 filas"
+    }
+  ],
+  "warnings": [
+    {
+      "type": "rounded_ranking_values",
+      "description": "Los valores mostrados se redondean; los empates deben resolverse con el valor sin redondear"
+    },
+    {
+      "type": "non_standard_enps",
+      "description": "El eNPS es una adaptación basada en estrellas y no el eNPS tradicional"
+    },
+    {
+      "type": "fragment_vs_review",
+      "description": "Las menciones son fragmentos; varias menciones pueden proceder de una misma review"
+    },
+    {
+      "type": "qualitative_scope",
+      "description": "Drivers y barreras detallados solo para top 10 y bottom 10"
+    },
+    {
+      "type": "small_samples",
+      "description": "Resultados con menos de 10 menciones deben tratarse como indicativos"
+    }
+  ],
+  "export_note": {
+    "status": "informational",
+    "description": "Un intento de extraer las 211 filas en una única respuesta de API excedió el límite de tamaño. El dataset canónico utilizado es el JSON previamente extraído en bloques y consolidado."
+  }
+}

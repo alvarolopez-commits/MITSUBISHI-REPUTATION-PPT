@@ -1,0 +1,933 @@
+{
+  "annex_id": "mitsubishi_top_bottom_drivers",
+  "title": "Drivers y barreras de los mejores y peores dealers Mitsubishi",
+  "scope": {
+    "brand": "Mitsubishi",
+    "brand_id": 34,
+    "period": {
+      "from": "2025-12-25",
+      "to": "2026-06-25",
+      "inclusive": true
+    },
+    "dealer_selection": {
+      "minimum_reviews": 50,
+      "minimum_reviews_operator": "greater_than_or_equal",
+      "eligible_dealers": 23
+    },
+    "qualitative_filter": {
+      "minimum_mentions": 3,
+      "minimum_mentions_operator": "greater_than_or_equal",
+      "note": "Una mención es un fragmento categorizado de una review; no equivale necesariamente a una review única."
+    }
+  },
+  "methodology": {
+    "dealer_ranking_metric": "total_enps",
+    "top_dealers_order": "descending",
+    "bottom_dealers_order": "ascending",
+    "enps_formula": "100 * (reviews_5_stars - reviews_1_star - reviews_2_stars - reviews_3_stars) / total_reviews",
+    "four_star_reviews": "Pasivas: forman parte del denominador, pero no suman ni restan en el numerador.",
+    "positive_driver_ranking": [
+      "Mayor positive_rate",
+      "En caso de empate, mayor mentions_total"
+    ],
+    "negative_barrier_ranking": [
+      "Mayor mentions_negative",
+      "En caso de empate, mayor negative_rate",
+      "En caso de nuevo empate, mayor mentions_total"
+    ],
+    "positive_rate_formula": "mentions_positive / mentions_total * 100",
+    "negative_rate_formula": "mentions_negative / mentions_total * 100"
+  },
+  "top_10": [
+    {
+      "rank": 1,
+      "dealer_id": 2663,
+      "dealer": "DIPO - BENGKULU (100902)",
+      "city": "Bengkulu",
+      "region": "Region 3",
+      "reviews": 53,
+      "average_rating": 5.0,
+      "total_enps": 100.0,
+      "top_categories": [
+        {
+          "rank": 1,
+          "category": "Staff and Service Quality",
+          "mentions_total": 39,
+          "mentions_positive": 39,
+          "positive_rate": 100.0
+        },
+        {
+          "rank": 2,
+          "category": "Atmosphere and Brand Perception",
+          "mentions_total": 21,
+          "mentions_positive": 21,
+          "positive_rate": 100.0
+        }
+      ],
+      "top_subcategories": [
+        {
+          "rank": 1,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Friendliness",
+          "mentions_total": 20,
+          "mentions_positive": 20,
+          "positive_rate": 100.0
+        },
+        {
+          "rank": 2,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Professionalism",
+          "mentions_total": 16,
+          "mentions_positive": 16,
+          "positive_rate": 100.0
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "dealer_id": 2160,
+      "dealer": "SUN - PROBOLINGGO (100746)",
+      "city": "Probolinggo",
+      "region": "Region 4",
+      "reviews": 124,
+      "average_rating": 5.0,
+      "total_enps": 100.0,
+      "top_categories": [
+        {
+          "rank": 1,
+          "category": "Atmosphere and Brand Perception",
+          "mentions_total": 5,
+          "mentions_positive": 5,
+          "positive_rate": 100.0
+        },
+        {
+          "rank": 2,
+          "category": "Staff and Service Quality",
+          "mentions_total": 60,
+          "mentions_positive": 58,
+          "positive_rate": 96.67
+        }
+      ],
+      "top_subcategories": [
+        {
+          "rank": 1,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Friendliness",
+          "mentions_total": 28,
+          "mentions_positive": 28,
+          "positive_rate": 100.0
+        },
+        {
+          "rank": 2,
+          "category": "Place and Facilities",
+          "subcategory": "Cleanliness",
+          "mentions_total": 10,
+          "mentions_positive": 10,
+          "positive_rate": 100.0
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "dealer_id": 2093,
+      "dealer": "SUN - SLEMAN (YOGYA) (100906)",
+      "city": "Sleman",
+      "region": "Region 2",
+      "reviews": 84,
+      "average_rating": 4.9881,
+      "total_enps": 98.81,
+      "top_categories": [
+        {
+          "rank": 1,
+          "category": "Time and Efficiency",
+          "mentions_total": 10,
+          "mentions_positive": 10,
+          "positive_rate": 100.0
+        },
+        {
+          "rank": 2,
+          "category": "Atmosphere and Brand Perception",
+          "mentions_total": 9,
+          "mentions_positive": 9,
+          "positive_rate": 100.0
+        }
+      ],
+      "top_subcategories": [
+        {
+          "rank": 1,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Professionalism",
+          "mentions_total": 23,
+          "mentions_positive": 23,
+          "positive_rate": 100.0
+        },
+        {
+          "rank": 2,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Friendliness",
+          "mentions_total": 19,
+          "mentions_positive": 19,
+          "positive_rate": 100.0
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "dealer_id": 2105,
+      "dealer": "SUN - BLITAR (100087)",
+      "city": "Blitar",
+      "region": "Region 4",
+      "reviews": 160,
+      "average_rating": 4.9813,
+      "total_enps": 98.13,
+      "top_categories": [
+        {
+          "rank": 1,
+          "category": "Pricing and Financing",
+          "mentions_total": 3,
+          "mentions_positive": 3,
+          "positive_rate": 100.0
+        },
+        {
+          "rank": 2,
+          "category": "Staff and Service Quality",
+          "mentions_total": 112,
+          "mentions_positive": 111,
+          "positive_rate": 99.11
+        }
+      ],
+      "top_subcategories": [
+        {
+          "rank": 1,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Friendliness",
+          "mentions_total": 61,
+          "mentions_positive": 61,
+          "positive_rate": 100.0
+        },
+        {
+          "rank": 2,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Professionalism",
+          "mentions_total": 27,
+          "mentions_positive": 27,
+          "positive_rate": 100.0
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "dealer_id": 2198,
+      "dealer": "SDM - MARGONDA (100862)",
+      "city": "Depok",
+      "region": "Region 1",
+      "reviews": 127,
+      "average_rating": 4.9528,
+      "total_enps": 96.85,
+      "top_categories": [
+        {
+          "rank": 1,
+          "category": "Atmosphere and Brand Perception",
+          "mentions_total": 9,
+          "mentions_positive": 9,
+          "positive_rate": 100.0
+        },
+        {
+          "rank": 2,
+          "category": "Staff and Service Quality",
+          "mentions_total": 106,
+          "mentions_positive": 104,
+          "positive_rate": 98.11
+        }
+      ],
+      "top_subcategories": [
+        {
+          "rank": 1,
+          "category": "Customer Experience",
+          "subcategory": "Overall Satisfaction",
+          "mentions_total": 55,
+          "mentions_positive": 55,
+          "positive_rate": 100.0
+        },
+        {
+          "rank": 2,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Friendliness",
+          "mentions_total": 33,
+          "mentions_positive": 33,
+          "positive_rate": 100.0
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "dealer_id": 2183,
+      "dealer": "DIPO - CILEGON (100794)",
+      "city": "Cilegon",
+      "region": "Region 1",
+      "reviews": 53,
+      "average_rating": 4.9245,
+      "total_enps": 96.23,
+      "top_categories": [
+        {
+          "rank": 1,
+          "category": "Staff and Service Quality",
+          "mentions_total": 22,
+          "mentions_positive": 21,
+          "positive_rate": 95.45
+        },
+        {
+          "rank": 2,
+          "category": "Place and Facilities",
+          "mentions_total": 10,
+          "mentions_positive": 9,
+          "positive_rate": 90.0
+        }
+      ],
+      "top_subcategories": [
+        {
+          "rank": 1,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Friendliness",
+          "mentions_total": 9,
+          "mentions_positive": 9,
+          "positive_rate": 100.0
+        },
+        {
+          "rank": 2,
+          "category": "Staff and Service Quality",
+          "subcategory": "Speed of Service",
+          "mentions_total": 4,
+          "mentions_positive": 4,
+          "positive_rate": 100.0
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "dealer_id": 2184,
+      "dealer": "DIPO - PLUIT (100795)",
+      "city": "Jakarta Utara",
+      "region": "Region 1",
+      "reviews": 164,
+      "average_rating": 4.9207,
+      "total_enps": 95.73,
+      "top_categories": [
+        {
+          "rank": 1,
+          "category": "Atmosphere and Brand Perception",
+          "mentions_total": 7,
+          "mentions_positive": 7,
+          "positive_rate": 100.0
+        },
+        {
+          "rank": 2,
+          "category": "Customer Experience",
+          "mentions_total": 85,
+          "mentions_positive": 82,
+          "positive_rate": 96.47
+        }
+      ],
+      "top_subcategories": [
+        {
+          "rank": 1,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Professionalism",
+          "mentions_total": 21,
+          "mentions_positive": 21,
+          "positive_rate": 100.0
+        },
+        {
+          "rank": 2,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Friendliness",
+          "mentions_total": 20,
+          "mentions_positive": 20,
+          "positive_rate": 100.0
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "dealer_id": 2192,
+      "dealer": "SUN - A. YANI (100807)",
+      "city": "Surabaya",
+      "region": "Region 4",
+      "reviews": 158,
+      "average_rating": 4.9304,
+      "total_enps": 95.57,
+      "top_categories": [
+        {
+          "rank": 1,
+          "category": "Digital and Communication",
+          "mentions_total": 4,
+          "mentions_positive": 4,
+          "positive_rate": 100.0
+        },
+        {
+          "rank": 2,
+          "category": "Staff and Service Quality",
+          "mentions_total": 88,
+          "mentions_positive": 86,
+          "positive_rate": 97.73
+        }
+      ],
+      "top_subcategories": [
+        {
+          "rank": 1,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Friendliness",
+          "mentions_total": 38,
+          "mentions_positive": 38,
+          "positive_rate": 100.0
+        },
+        {
+          "rank": 2,
+          "category": "Staff and Service Quality",
+          "subcategory": "Personalized Attention",
+          "mentions_total": 14,
+          "mentions_positive": 14,
+          "positive_rate": 100.0
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "dealer_id": 2327,
+      "dealer": "SDM - PIK 2 (100919)",
+      "city": "Tangerang",
+      "region": "Region 1",
+      "reviews": 89,
+      "average_rating": 4.9326,
+      "total_enps": 95.51,
+      "top_categories": [
+        {
+          "rank": 1,
+          "category": "Atmosphere and Brand Perception",
+          "mentions_total": 7,
+          "mentions_positive": 7,
+          "positive_rate": 100.0
+        },
+        {
+          "rank": 2,
+          "category": "Pricing and Financing",
+          "mentions_total": 3,
+          "mentions_positive": 3,
+          "positive_rate": 100.0
+        }
+      ],
+      "top_subcategories": [
+        {
+          "rank": 1,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Professionalism",
+          "mentions_total": 18,
+          "mentions_positive": 18,
+          "positive_rate": 100.0
+        },
+        {
+          "rank": 2,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Friendliness",
+          "mentions_total": 15,
+          "mentions_positive": 15,
+          "positive_rate": 100.0
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "dealer_id": 2144,
+      "dealer": "SUN - MALANG (100689)",
+      "city": "Malang",
+      "region": "Region 4",
+      "reviews": 117,
+      "average_rating": 4.8974,
+      "total_enps": 94.87,
+      "top_categories": [
+        {
+          "rank": 1,
+          "category": "Staff and Service Quality",
+          "mentions_total": 55,
+          "mentions_positive": 55,
+          "positive_rate": 100.0
+        },
+        {
+          "rank": 2,
+          "category": "Place and Facilities",
+          "mentions_total": 49,
+          "mentions_positive": 44,
+          "positive_rate": 89.8
+        }
+      ],
+      "top_subcategories": [
+        {
+          "rank": 1,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Friendliness",
+          "mentions_total": 21,
+          "mentions_positive": 21,
+          "positive_rate": 100.0
+        },
+        {
+          "rank": 2,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Professionalism",
+          "mentions_total": 15,
+          "mentions_positive": 15,
+          "positive_rate": 100.0
+        }
+      ]
+    }
+  ],
+  "bottom_10": [
+    {
+      "rank": 1,
+      "dealer_id": 2670,
+      "dealer": "BRA - IMAM BONJOL (DENPASAR) (100068)",
+      "city": "Denpasar",
+      "region": "Region 4",
+      "reviews": 61,
+      "average_rating": 3.5574,
+      "total_enps": 21.31,
+      "top_negative_categories": [
+        {
+          "rank": 1,
+          "category": "Time and Efficiency",
+          "mentions_total": 24,
+          "mentions_negative": 19,
+          "negative_rate": 79.17
+        },
+        {
+          "rank": 2,
+          "category": "Staff and Service Quality",
+          "mentions_total": 26,
+          "mentions_negative": 16,
+          "negative_rate": 61.54
+        }
+      ],
+      "top_negative_subcategories": [
+        {
+          "rank": 1,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Professionalism",
+          "mentions_total": 16,
+          "mentions_negative": 11,
+          "negative_rate": 68.75
+        },
+        {
+          "rank": 2,
+          "category": "Time and Efficiency",
+          "subcategory": "Booking Process",
+          "mentions_total": 9,
+          "mentions_negative": 8,
+          "negative_rate": 88.89
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "dealer_id": 2223,
+      "dealer": "SARDANA - GATSU (MEDAN) (100011)",
+      "city": "Medan",
+      "region": "Region 3",
+      "reviews": 119,
+      "average_rating": 4.6471,
+      "total_enps": 75.63,
+      "top_negative_categories": [
+        {
+          "rank": 1,
+          "category": "Time and Efficiency",
+          "mentions_total": 11,
+          "mentions_negative": 8,
+          "negative_rate": 72.73
+        },
+        {
+          "rank": 2,
+          "category": "Staff and Service Quality",
+          "mentions_total": 43,
+          "mentions_negative": 5,
+          "negative_rate": 11.63
+        }
+      ],
+      "top_negative_subcategories": [
+        {
+          "rank": 1,
+          "category": "Time and Efficiency",
+          "subcategory": "Waiting Time",
+          "mentions_total": 5,
+          "mentions_negative": 4,
+          "negative_rate": 80.0
+        },
+        {
+          "rank": 2,
+          "category": "Time and Efficiency",
+          "subcategory": "Booking Process",
+          "mentions_total": 6,
+          "mentions_negative": 4,
+          "negative_rate": 66.67
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "dealer_id": 2209,
+      "dealer": "SUN - CIBUBUR (100889)",
+      "city": "Bogor",
+      "region": "Region 1",
+      "reviews": 96,
+      "average_rating": 4.5938,
+      "total_enps": 77.08,
+      "top_negative_categories": [
+        {
+          "rank": 1,
+          "category": "Service and Maintenance",
+          "mentions_total": 20,
+          "mentions_negative": 12,
+          "negative_rate": 60.0
+        },
+        {
+          "rank": 2,
+          "category": "Staff and Service Quality",
+          "mentions_total": 42,
+          "mentions_negative": 9,
+          "negative_rate": 21.43
+        }
+      ],
+      "top_negative_subcategories": [
+        {
+          "rank": 1,
+          "category": "Service and Maintenance",
+          "subcategory": "Maintenance Services",
+          "mentions_total": 14,
+          "mentions_negative": 10,
+          "negative_rate": 71.43
+        },
+        {
+          "rank": 2,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Professionalism",
+          "mentions_total": 17,
+          "mentions_negative": 5,
+          "negative_rate": 29.41,
+          "tie_note": "Empata con Comfort of Waiting Areas: 5 menciones negativas sobre 17."
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "dealer_id": 2276,
+      "dealer": "BRA - SERPONG (100686)",
+      "city": "Tangerang Selatan",
+      "region": "Region 1",
+      "reviews": 71,
+      "average_rating": 4.6197,
+      "total_enps": 78.87,
+      "top_negative_categories": [
+        {
+          "rank": 1,
+          "category": "Service and Maintenance",
+          "mentions_total": 17,
+          "mentions_negative": 9,
+          "negative_rate": 52.94
+        },
+        {
+          "rank": 2,
+          "category": "Pricing and Financing",
+          "mentions_total": 6,
+          "mentions_negative": 4,
+          "negative_rate": 66.67
+        }
+      ],
+      "top_negative_subcategories": [
+        {
+          "rank": 1,
+          "category": "Service and Maintenance",
+          "subcategory": "Complaint Handling",
+          "mentions_total": 5,
+          "mentions_negative": 4,
+          "negative_rate": 80.0
+        },
+        {
+          "rank": 2,
+          "category": "Pricing and Financing",
+          "subcategory": "Transparency in Pricing",
+          "mentions_total": 6,
+          "mentions_negative": 4,
+          "negative_rate": 66.67
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "dealer_id": 2249,
+      "dealer": "WICAKSANA - AHMAD YANI (100170)",
+      "city": "Bandung",
+      "region": "Region 2",
+      "reviews": 63,
+      "average_rating": 4.6984,
+      "total_enps": 82.54,
+      "top_negative_categories": [
+        {
+          "rank": 1,
+          "category": "Service and Maintenance",
+          "mentions_total": 10,
+          "mentions_negative": 5,
+          "negative_rate": 50.0
+        },
+        {
+          "rank": 2,
+          "category": "Time and Efficiency",
+          "mentions_total": 8,
+          "mentions_negative": 3,
+          "negative_rate": 37.5
+        }
+      ],
+      "top_negative_subcategories": [
+        {
+          "rank": 1,
+          "category": "Time and Efficiency",
+          "subcategory": "Waiting Time",
+          "mentions_total": 6,
+          "mentions_negative": 3,
+          "negative_rate": 50.0
+        },
+        {
+          "rank": 2,
+          "category": "Service and Maintenance",
+          "subcategory": "Maintenance Services",
+          "mentions_total": 8,
+          "mentions_negative": 3,
+          "negative_rate": 37.5
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "dealer_id": 2142,
+      "dealer": "MUSTIKA - CIBUBUR (100682)",
+      "city": "Bogor",
+      "region": "Region 1",
+      "reviews": 142,
+      "average_rating": 4.7113,
+      "total_enps": 83.1,
+      "top_negative_categories": [
+        {
+          "rank": 1,
+          "category": "Staff and Service Quality",
+          "mentions_total": 87,
+          "mentions_negative": 9,
+          "negative_rate": 10.34
+        },
+        {
+          "rank": 2,
+          "category": "Atmosphere and Brand Perception",
+          "mentions_total": 12,
+          "mentions_negative": 3,
+          "negative_rate": 25.0
+        }
+      ],
+      "top_negative_subcategories": [
+        {
+          "rank": 1,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Professionalism",
+          "mentions_total": 16,
+          "mentions_negative": 6,
+          "negative_rate": 37.5
+        },
+        {
+          "rank": 2,
+          "category": "Atmosphere and Brand Perception",
+          "subcategory": "Trustworthiness",
+          "mentions_total": 6,
+          "mentions_negative": 3,
+          "negative_rate": 50.0
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "dealer_id": 2190,
+      "dealer": "DIPO - PURI (100804)",
+      "city": "Jakarta Barat",
+      "region": "Region 1",
+      "reviews": 269,
+      "average_rating": 4.7584,
+      "total_enps": 85.5,
+      "top_negative_categories": [
+        {
+          "rank": 1,
+          "category": "Service and Maintenance",
+          "mentions_total": 95,
+          "mentions_negative": 9,
+          "negative_rate": 9.47
+        },
+        {
+          "rank": 2,
+          "category": "Time and Efficiency",
+          "mentions_total": 18,
+          "mentions_negative": 6,
+          "negative_rate": 33.33
+        }
+      ],
+      "top_negative_subcategories": [
+        {
+          "rank": 1,
+          "category": "Service and Maintenance",
+          "subcategory": "Complaint Handling",
+          "mentions_total": 7,
+          "mentions_negative": 6,
+          "negative_rate": 85.71
+        },
+        {
+          "rank": 2,
+          "category": "Time and Efficiency",
+          "subcategory": "Waiting Time",
+          "mentions_total": 6,
+          "mentions_negative": 4,
+          "negative_rate": 66.67
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "dealer_id": 2108,
+      "dealer": "SUN - FATMAWATI (100097)",
+      "city": "Jakarta Selatan",
+      "region": "Region 1",
+      "reviews": 73,
+      "average_rating": 4.8219,
+      "total_enps": 87.67,
+      "top_negative_categories": [
+        {
+          "rank": 1,
+          "category": "Time and Efficiency",
+          "mentions_total": 10,
+          "mentions_negative": 2,
+          "negative_rate": 20.0
+        },
+        {
+          "rank": 2,
+          "category": "Place and Facilities",
+          "mentions_total": 16,
+          "mentions_negative": 1,
+          "negative_rate": 6.25
+        }
+      ],
+      "top_negative_subcategories": [
+        {
+          "rank": 1,
+          "category": "Time and Efficiency",
+          "subcategory": "Waiting Time",
+          "mentions_total": 3,
+          "mentions_negative": 1,
+          "negative_rate": 33.33
+        },
+        {
+          "rank": 2,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Professionalism",
+          "mentions_total": 7,
+          "mentions_negative": 1,
+          "negative_rate": 14.29
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "dealer_id": 2666,
+      "dealer": "SUN - TUBAN (100745)",
+      "city": "Tuban",
+      "region": "Region 4",
+      "reviews": 69,
+      "average_rating": 4.7971,
+      "total_enps": 88.41,
+      "top_negative_categories": [
+        {
+          "rank": 1,
+          "category": "Service and Maintenance",
+          "mentions_total": 4,
+          "mentions_negative": 2,
+          "negative_rate": 50.0
+        },
+        {
+          "rank": 2,
+          "category": "Atmosphere and Brand Perception",
+          "mentions_total": 5,
+          "mentions_negative": 2,
+          "negative_rate": 40.0
+        }
+      ],
+      "top_negative_subcategories": [
+        {
+          "rank": 1,
+          "category": "Staff and Service Quality",
+          "subcategory": "Staff Professionalism",
+          "mentions_total": 7,
+          "mentions_negative": 2,
+          "negative_rate": 28.57
+        },
+        {
+          "rank": 2,
+          "category": "Customer Experience",
+          "subcategory": "Overall Satisfaction",
+          "mentions_total": 21,
+          "mentions_negative": 1,
+          "negative_rate": 4.76
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "dealer_id": 2178,
+      "dealer": "DIPO - JEMBER (100783)",
+      "city": "Jember",
+      "region": "Region 4",
+      "reviews": 53,
+      "average_rating": 4.8491,
+      "total_enps": 88.68,
+      "top_negative_categories": [
+        {
+          "rank": 1,
+          "category": "Service and Maintenance",
+          "mentions_total": 7,
+          "mentions_negative": 3,
+          "negative_rate": 42.86
+        },
+        {
+          "rank": 2,
+          "category": "Digital and Communication",
+          "mentions_total": 4,
+          "mentions_negative": 2,
+          "negative_rate": 50.0
+        }
+      ],
+      "top_negative_subcategories": [],
+      "subcategory_note": "Ninguna subcategoría con al menos 3 menciones registró sentimiento negativo."
+    }
+  ],
+  "executive_findings": {
+    "top_dealers": [
+      "Staff and Service Quality es el driver positivo más consistente.",
+      "Staff Friendliness y Staff Professionalism son las subcategorías positivas más recurrentes.",
+      "Los resultados de SUN - BLITAR, SDM - MARGONDA y DIPO - PLUIT combinan valoración elevada y volumen robusto.",
+      "Algunas categorías con 100% positivo se basan en solo 3 a 9 menciones y deben considerarse indicativas."
+    ],
+    "bottom_dealers": [
+      "Service and Maintenance y Time and Efficiency son las barreras más recurrentes.",
+      "Waiting Time, Complaint Handling, Maintenance Services y Booking Process son los principales focos operativos.",
+      "BRA - IMAM BONJOL es el caso más crítico por la intensidad y amplitud de las menciones negativas.",
+      "DIPO - PURI merece atención por combinar un alto volumen de reviews con problemas concentrados en Complaint Handling y Waiting Time."
+    ]
+  },
+  "quality_notes": [
+    "El análisis de texto se basa en fragmentos categorizados y no en reviews únicas.",
+    "Varias menciones pueden proceder de una misma review.",
+    "Los porcentajes con menos de 10 menciones deben considerarse indicativos.",
+    "Las categorías positivas se ordenan primero por porcentaje positivo.",
+    "Las categorías negativas se ordenan primero por volumen absoluto de menciones negativas.",
+    "No debe inferirse causalidad sin revisar los textos originales y el contexto operativo.",
+    "Las consultas utilizadas no devolvieron un campo errors."
+  ]
+}

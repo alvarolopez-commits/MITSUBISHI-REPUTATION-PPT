@@ -1,0 +1,181 @@
+{
+  "dataset": "dealers_211.json",
+  "row_structure": "columnar",
+  "description": "Las posiciones de cada fila corresponden al array columns.",
+  "fields": {
+    "n": {
+      "type": "integer",
+      "description": "Número de orden original de la extracción"
+    },
+    "dealer": {
+      "type": "string",
+      "description": "Nombre del dealer"
+    },
+    "marca": {
+      "type": "string",
+      "description": "Marca asociada al dealer"
+    },
+    "ciudad": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Ciudad"
+    },
+    "region": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Región comercial o geográfica"
+    },
+    "reviews": {
+      "type": "integer",
+      "description": "Reviews publicadas dentro del periodo"
+    },
+    "promedio": {
+      "type": "number",
+      "description": "Media de estrellas durante el periodo",
+      "range": [
+        1,
+        5
+      ]
+    },
+    "t1": {
+      "type": "integer",
+      "description": "Reviews totales de 1 estrella"
+    },
+    "t2": {
+      "type": "integer",
+      "description": "Reviews totales de 2 estrellas"
+    },
+    "t3": {
+      "type": "integer",
+      "description": "Reviews totales de 3 estrellas"
+    },
+    "t4": {
+      "type": "integer",
+      "description": "Reviews totales de 4 estrellas"
+    },
+    "t5": {
+      "type": "integer",
+      "description": "Reviews totales de 5 estrellas"
+    },
+    "sales": {
+      "type": "integer",
+      "description": "Reviews clasificadas como Sales"
+    },
+    "after_sales": {
+      "type": "integer",
+      "description": "Reviews clasificadas como After Sales"
+    },
+    "undefined": {
+      "type": "integer",
+      "description": "Reviews no clasificadas como Sales ni After Sales"
+    },
+    "as1": {
+      "type": "integer",
+      "description": "Reviews After Sales de 1 estrella"
+    },
+    "as2": {
+      "type": "integer",
+      "description": "Reviews After Sales de 2 estrellas"
+    },
+    "as3": {
+      "type": "integer",
+      "description": "Reviews After Sales de 3 estrellas"
+    },
+    "as4": {
+      "type": "integer",
+      "description": "Reviews After Sales de 4 estrellas"
+    },
+    "as5": {
+      "type": "integer",
+      "description": "Reviews After Sales de 5 estrellas"
+    },
+    "s1": {
+      "type": "integer",
+      "description": "Reviews Sales de 1 estrella"
+    },
+    "s2": {
+      "type": "integer",
+      "description": "Reviews Sales de 2 estrellas"
+    },
+    "s3": {
+      "type": "integer",
+      "description": "Reviews Sales de 3 estrellas"
+    },
+    "s4": {
+      "type": "integer",
+      "description": "Reviews Sales de 4 estrellas"
+    },
+    "s5": {
+      "type": "integer",
+      "description": "Reviews Sales de 5 estrellas"
+    },
+    "enps_total": {
+      "type": "number",
+      "description": "eNPS calculado sobre todas las reviews",
+      "range": [
+        -100,
+        100
+      ]
+    },
+    "enps_sales": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "eNPS calculado solo sobre Sales",
+      "range": [
+        -100,
+        100
+      ]
+    },
+    "enps_after_sales": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "eNPS calculado solo sobre After Sales",
+      "range": [
+        -100,
+        100
+      ]
+    }
+  },
+  "fragment_analysis_fields": {
+    "level": {
+      "type": "string",
+      "values": [
+        "category",
+        "subcategory"
+      ]
+    },
+    "mentions_total": {
+      "type": "integer",
+      "description": "Número de fragmentos categorizados"
+    },
+    "mentions_positive": {
+      "type": "integer"
+    },
+    "mentions_negative": {
+      "type": "integer"
+    },
+    "positive_rate": {
+      "type": "number",
+      "unit": "percent"
+    },
+    "negative_rate": {
+      "type": "number",
+      "unit": "percent"
+    },
+    "rank_within_dealer": {
+      "type": "integer",
+      "values": [
+        1,
+        2
+      ]
+    }
+  }
+}

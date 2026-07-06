@@ -1,0 +1,2897 @@
+{
+  "metadata": {
+    "brand": "Mitsubishi",
+    "brand_id": 34,
+    "period": {
+      "from": "2025-12-25",
+      "to": "2026-06-25",
+      "inclusive": true
+    },
+    "dealers_registered": 159,
+    "dealers_active": 157,
+    "dealers_without_reviews": 2,
+    "enps_formula": "100 * (reviews_5_stars - reviews_1_star - reviews_2_stars - reviews_3_stars) / total_reviews",
+    "null_rule": "Cuando reviews es 0, average_rating y enps son null",
+    "brand_summary": {
+      "total": {
+        "reviews": 4512,
+        "average_rating": 4.691,
+        "enps": 81.6
+      },
+      "sales": {
+        "reviews": 496,
+        "average_rating": 4.546,
+        "enps": 75.4
+      },
+      "after_sales": {
+        "reviews": 1792,
+        "average_rating": 4.613,
+        "enps": 78.35
+      }
+    }
+  },
+  "dealers": [
+    {
+      "dealer": "AIPO - PALEMBANG (A.YANI) (100894)",
+      "total": {
+        "reviews": 3,
+        "average_rating": 2.333,
+        "enps": -33.33
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 1.0,
+        "enps": -100.0
+      }
+    },
+    {
+      "dealer": "ARISTA - BANDA ACEH (100713)",
+      "total": {
+        "reviews": 13,
+        "average_rating": 4.0,
+        "enps": 38.46
+      },
+      "sales": {
+        "reviews": 3,
+        "average_rating": 2.667,
+        "enps": -33.33
+      },
+      "after_sales": {
+        "reviews": 4,
+        "average_rating": 3.75,
+        "enps": 25.0
+      }
+    },
+    {
+      "dealer": "ARISTA - KALIMALANG (100675)",
+      "total": {
+        "reviews": 32,
+        "average_rating": 4.25,
+        "enps": 56.25
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 12,
+        "average_rating": 3.25,
+        "enps": 8.33
+      }
+    },
+    {
+      "dealer": "BARITO - BANJAR BARU (100635)",
+      "total": {
+        "reviews": 29,
+        "average_rating": 4.828,
+        "enps": 89.66
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 14,
+        "average_rating": 4.714,
+        "enps": 85.71
+      }
+    },
+    {
+      "dealer": "BARITO - BATULICIN (100617)",
+      "total": {
+        "reviews": 8,
+        "average_rating": 4.0,
+        "enps": 50.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "BATAVIA - PARUNG (100711)",
+      "total": {
+        "reviews": 25,
+        "average_rating": 4.72,
+        "enps": 80.0
+      },
+      "sales": {
+        "reviews": 2,
+        "average_rating": 3.0,
+        "enps": 0.0
+      },
+      "after_sales": {
+        "reviews": 6,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "BATAVIA - PULOGADUNG (100719)",
+      "total": {
+        "reviews": 8,
+        "average_rating": 4.0,
+        "enps": 50.0
+      },
+      "sales": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 3,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "BBM - YOS SUDARSO (LAMPUNG) (100723)",
+      "total": {
+        "reviews": 8,
+        "average_rating": 3.75,
+        "enps": 25.0
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 3.0,
+        "enps": -100.0
+      },
+      "after_sales": {
+        "reviews": 5,
+        "average_rating": 3.4,
+        "enps": 20.0
+      }
+    },
+    {
+      "dealer": "BCB - MATARAM (100599)",
+      "total": {
+        "reviews": 5,
+        "average_rating": 4.0,
+        "enps": 40.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 4.5,
+        "enps": 50.0
+      }
+    },
+    {
+      "dealer": "BMM - LUBUK LINGGAU (100727)",
+      "total": {
+        "reviews": 5,
+        "average_rating": 4.2,
+        "enps": 60.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 3.0,
+        "enps": 0.0
+      }
+    },
+    {
+      "dealer": "BMM - PALEMBANG (100169)",
+      "total": {
+        "reviews": 21,
+        "average_rating": 3.667,
+        "enps": 33.33
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 6,
+        "average_rating": 1.667,
+        "enps": -66.67
+      }
+    },
+    {
+      "dealer": "BMM - PALEMBANG (100690)",
+      "total": {
+        "reviews": 8,
+        "average_rating": 4.5,
+        "enps": 75.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "BOM - ADI SUCIPTO (YOGYA) (100584)",
+      "total": {
+        "reviews": 31,
+        "average_rating": 4.613,
+        "enps": 80.65
+      },
+      "sales": {
+        "reviews": 4,
+        "average_rating": 4.0,
+        "enps": 50.0
+      },
+      "after_sales": {
+        "reviews": 13,
+        "average_rating": 4.692,
+        "enps": 84.62
+      }
+    },
+    {
+      "dealer": "BOM - JL MAGELANG (YOGYA) (100721)",
+      "total": {
+        "reviews": 23,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 11,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "BOM - TEGAL (100734)",
+      "total": {
+        "reviews": 11,
+        "average_rating": 4.273,
+        "enps": 63.64
+      },
+      "sales": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 3.0,
+        "enps": 0.0
+      }
+    },
+    {
+      "dealer": "BOM - WONOSOBO (100808)",
+      "total": {
+        "reviews": 2,
+        "average_rating": 4.5,
+        "enps": 50.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "BOSOWA - JAYAPURA (100809)",
+      "total": {
+        "reviews": 10,
+        "average_rating": 4.6,
+        "enps": 80.0
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 3,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "BOSOWA - KENDARI (100131)",
+      "total": {
+        "reviews": 2,
+        "average_rating": 3.0,
+        "enps": 0.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "BOSOWA - MAKASSAR (100128)",
+      "total": {
+        "reviews": 12,
+        "average_rating": 4.167,
+        "enps": 50.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 5,
+        "average_rating": 3.4,
+        "enps": 20.0
+      }
+    },
+    {
+      "dealer": "BOSOWA - MANADO (100130)",
+      "total": {
+        "reviews": 9,
+        "average_rating": 3.444,
+        "enps": 11.11
+      },
+      "sales": {
+        "reviews": 2,
+        "average_rating": 3.0,
+        "enps": 0.0
+      },
+      "after_sales": {
+        "reviews": 3,
+        "average_rating": 2.333,
+        "enps": -33.33
+      }
+    },
+    {
+      "dealer": "BOSOWA - MAROS (100880)",
+      "total": {
+        "reviews": 19,
+        "average_rating": 4.053,
+        "enps": 47.37
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 1.0,
+        "enps": -100.0
+      },
+      "after_sales": {
+        "reviews": 4,
+        "average_rating": 3.0,
+        "enps": 0.0
+      }
+    },
+    {
+      "dealer": "BOSOWA - PALU (100129)",
+      "total": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "BOSOWA - RINGROAD MANADO (100923)",
+      "total": {
+        "reviews": 4,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "BRA - GATSU (DENPASAR) (100687)",
+      "total": {
+        "reviews": 33,
+        "average_rating": 4.545,
+        "enps": 72.73
+      },
+      "sales": {
+        "reviews": 4,
+        "average_rating": 3.0,
+        "enps": 0.0
+      },
+      "after_sales": {
+        "reviews": 12,
+        "average_rating": 4.5,
+        "enps": 66.67
+      }
+    },
+    {
+      "dealer": "BRA - IMAM BONJOL (DENPASAR) (100068)",
+      "total": {
+        "reviews": 61,
+        "average_rating": 3.557,
+        "enps": 21.31
+      },
+      "sales": {
+        "reviews": 4,
+        "average_rating": 3.0,
+        "enps": 0.0
+      },
+      "after_sales": {
+        "reviews": 30,
+        "average_rating": 2.7,
+        "enps": -20.0
+      }
+    },
+    {
+      "dealer": "BRA - LATUMENTEN (100074)",
+      "total": {
+        "reviews": 14,
+        "average_rating": 4.643,
+        "enps": 78.57
+      },
+      "sales": {
+        "reviews": 5,
+        "average_rating": 4.8,
+        "enps": 80.0
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "BRA - MAGELANG (100733)",
+      "total": {
+        "reviews": 17,
+        "average_rating": 4.765,
+        "enps": 88.24
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 10,
+        "average_rating": 4.6,
+        "enps": 80.0
+      }
+    },
+    {
+      "dealer": "BRA - SEMARANG (100067)",
+      "total": {
+        "reviews": 32,
+        "average_rating": 3.625,
+        "enps": 25.0
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 3.0,
+        "enps": -100.0
+      },
+      "after_sales": {
+        "reviews": 13,
+        "average_rating": 2.462,
+        "enps": -30.77
+      }
+    },
+    {
+      "dealer": "BRA - SERPONG (100686)",
+      "total": {
+        "reviews": 71,
+        "average_rating": 4.62,
+        "enps": 78.87
+      },
+      "sales": {
+        "reviews": 4,
+        "average_rating": 3.0,
+        "enps": 0.0
+      },
+      "after_sales": {
+        "reviews": 32,
+        "average_rating": 4.531,
+        "enps": 71.88
+      }
+    },
+    {
+      "dealer": "BRA - SIDOARJO (100069)",
+      "total": {
+        "reviews": 3,
+        "average_rating": 2.333,
+        "enps": -33.33
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 1.0,
+        "enps": -100.0
+      },
+      "after_sales": {
+        "reviews": 1,
+        "average_rating": 1.0,
+        "enps": -100.0
+      }
+    },
+    {
+      "dealer": "BRA - TEBET (100667)",
+      "total": {
+        "reviews": 39,
+        "average_rating": 4.333,
+        "enps": 64.1
+      },
+      "sales": {
+        "reviews": 2,
+        "average_rating": 4.5,
+        "enps": 50.0
+      },
+      "after_sales": {
+        "reviews": 16,
+        "average_rating": 3.5,
+        "enps": 25.0
+      }
+    },
+    {
+      "dealer": "BUDI BERLIAN - KALIANDA (100881)",
+      "total": {
+        "reviews": 2,
+        "average_rating": 4.5,
+        "enps": 50.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "BUDI BERLIAN - NATAR (100172)",
+      "total": {
+        "reviews": 20,
+        "average_rating": 4.85,
+        "enps": 85.0
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 3,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "BUDI BERLIAN - PRINGSEWU (100854)",
+      "total": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "BUDI BERLIAN - TULANG BAWANG (100853)",
+      "total": {
+        "reviews": 8,
+        "average_rating": 4.75,
+        "enps": 75.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 4,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "DARUSSALAM - NAGAN RAYA (100879)",
+      "total": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "DIPO - ARENGKA (100899)",
+      "total": {
+        "reviews": 6,
+        "average_rating": 4.333,
+        "enps": 66.67
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "DIPO - BANYUWANGI (100785)",
+      "total": {
+        "reviews": 17,
+        "average_rating": 4.471,
+        "enps": 58.82
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 6,
+        "average_rating": 4.667,
+        "enps": 66.67
+      }
+    },
+    {
+      "dealer": "DIPO - BATAM (100788)",
+      "total": {
+        "reviews": 35,
+        "average_rating": 4.6,
+        "enps": 71.43
+      },
+      "sales": {
+        "reviews": 2,
+        "average_rating": 3.0,
+        "enps": 0.0
+      },
+      "after_sales": {
+        "reviews": 3,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "DIPO - BENGKULU (100902)",
+      "total": {
+        "reviews": 53,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 23,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 10,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "DIPO - BINJAI (100722)",
+      "total": {
+        "reviews": 4,
+        "average_rating": 3.25,
+        "enps": 0.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 1.5,
+        "enps": -100.0
+      }
+    },
+    {
+      "dealer": "DIPO - BUKITTINGGI (100925)",
+      "total": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "DIPO - CILEGON (100794)",
+      "total": {
+        "reviews": 53,
+        "average_rating": 4.925,
+        "enps": 96.23
+      },
+      "sales": {
+        "reviews": 3,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 25,
+        "average_rating": 4.84,
+        "enps": 92.0
+      }
+    },
+    {
+      "dealer": "DIPO - CIPUTAT (100773)",
+      "total": {
+        "reviews": 13,
+        "average_rating": 4.538,
+        "enps": 69.23
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 3,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "DIPO - GOLF ISLAND, PIK (100886)",
+      "total": {
+        "reviews": 22,
+        "average_rating": 4.5,
+        "enps": 68.18
+      },
+      "sales": {
+        "reviews": 8,
+        "average_rating": 4.375,
+        "enps": 62.5
+      },
+      "after_sales": {
+        "reviews": 5,
+        "average_rating": 4.2,
+        "enps": 60.0
+      }
+    },
+    {
+      "dealer": "DIPO - JAMBI (100781)",
+      "total": {
+        "reviews": 38,
+        "average_rating": 4.579,
+        "enps": 73.68
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 1.0,
+        "enps": -100.0
+      },
+      "after_sales": {
+        "reviews": 8,
+        "average_rating": 3.875,
+        "enps": 37.5
+      }
+    },
+    {
+      "dealer": "DIPO - JEMBER (100783)",
+      "total": {
+        "reviews": 53,
+        "average_rating": 4.849,
+        "enps": 88.68
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 19,
+        "average_rating": 4.737,
+        "enps": 84.21
+      }
+    },
+    {
+      "dealer": "DIPO - KRAKATAU (100747)",
+      "total": {
+        "reviews": 6,
+        "average_rating": 4.333,
+        "enps": 66.67
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 3,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "DIPO - MADIUN (100789)",
+      "total": {
+        "reviews": 47,
+        "average_rating": 4.894,
+        "enps": 93.62
+      },
+      "sales": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 11,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "DIPO - PADANG (100770)",
+      "total": {
+        "reviews": 4,
+        "average_rating": 4.75,
+        "enps": 75.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 1,
+        "average_rating": 4.0,
+        "enps": 0.0
+      }
+    },
+    {
+      "dealer": "DIPO - PEKANBARU (100787)",
+      "total": {
+        "reviews": 22,
+        "average_rating": 4.773,
+        "enps": 77.27
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 5,
+        "average_rating": 4.8,
+        "enps": 80.0
+      }
+    },
+    {
+      "dealer": "DIPO - PEMATANG SIANTAR (100885)",
+      "total": {
+        "reviews": 5,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "DIPO - PLUIT (100795)",
+      "total": {
+        "reviews": 164,
+        "average_rating": 4.921,
+        "enps": 95.73
+      },
+      "sales": {
+        "reviews": 5,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 111,
+        "average_rating": 4.928,
+        "enps": 96.4
+      }
+    },
+    {
+      "dealer": "DIPO - PONDOK INDAH (100777)",
+      "total": {
+        "reviews": 9,
+        "average_rating": 4.111,
+        "enps": 55.56
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 3.0,
+        "enps": 0.0
+      }
+    },
+    {
+      "dealer": "DIPO - PURI (100804)",
+      "total": {
+        "reviews": 269,
+        "average_rating": 4.758,
+        "enps": 85.5
+      },
+      "sales": {
+        "reviews": 43,
+        "average_rating": 4.302,
+        "enps": 62.79
+      },
+      "after_sales": {
+        "reviews": 151,
+        "average_rating": 4.914,
+        "enps": 94.04
+      }
+    },
+    {
+      "dealer": "DIPO - RANCAEKEK (100780)",
+      "total": {
+        "reviews": 23,
+        "average_rating": 4.913,
+        "enps": 91.3
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 10,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "DIPO - RINGROAD (100908)",
+      "total": {
+        "reviews": 23,
+        "average_rating": 4.826,
+        "enps": 91.3
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 1.0,
+        "enps": -100.0
+      },
+      "after_sales": {
+        "reviews": 11,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "DIPO - SERANG (100793)",
+      "total": {
+        "reviews": 8,
+        "average_rating": 4.875,
+        "enps": 87.5
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "DIPO - SERANG PUSAT (100810)",
+      "total": {
+        "reviews": 23,
+        "average_rating": 4.957,
+        "enps": 95.65
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 4.0,
+        "enps": 0.0
+      },
+      "after_sales": {
+        "reviews": 7,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "DIPO - SISINGAMANGARAJA (100001)",
+      "total": {
+        "reviews": 37,
+        "average_rating": 4.73,
+        "enps": 83.78
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 13,
+        "average_rating": 4.692,
+        "enps": 84.62
+      }
+    },
+    {
+      "dealer": "DIPO - SLIPI (100790)",
+      "total": {
+        "reviews": 24,
+        "average_rating": 4.667,
+        "enps": 83.33
+      },
+      "sales": {
+        "reviews": 5,
+        "average_rating": 3.4,
+        "enps": 20.0
+      },
+      "after_sales": {
+        "reviews": 4,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "DIPO - SURYOPRANOTO (100900)",
+      "total": {
+        "reviews": 27,
+        "average_rating": 4.667,
+        "enps": 81.48
+      },
+      "sales": {
+        "reviews": 5,
+        "average_rating": 3.4,
+        "enps": 20.0
+      },
+      "after_sales": {
+        "reviews": 7,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "DIPO - TASIKMALAYA (100778)",
+      "total": {
+        "reviews": 19,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 6,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "DWINDO - BINTARO (100066)",
+      "total": {
+        "reviews": 11,
+        "average_rating": 4.273,
+        "enps": 63.64
+      },
+      "sales": {
+        "reviews": 3,
+        "average_rating": 3.667,
+        "enps": 33.33
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 3.0,
+        "enps": 0.0
+      }
+    },
+    {
+      "dealer": "DWINDO - CAKUNG (100703)",
+      "total": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "DWINDO - RADIN INTEN 2 (100651)",
+      "total": {
+        "reviews": 7,
+        "average_rating": 4.429,
+        "enps": 71.43
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 3.0,
+        "enps": 0.0
+      }
+    },
+    {
+      "dealer": "GBI - PONTIANAK (100762)",
+      "total": {
+        "reviews": 7,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "GBI - PONTIANAK (A.YANI) (100551)",
+      "total": {
+        "reviews": 3,
+        "average_rating": 2.333,
+        "enps": -33.33
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 1.0,
+        "enps": -100.0
+      },
+      "after_sales": {
+        "reviews": 1,
+        "average_rating": 1.0,
+        "enps": -100.0
+      }
+    },
+    {
+      "dealer": "GBI - SINGKAWANG (100163)",
+      "total": {
+        "reviews": 4,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "LBUM - BANDAR JAYA (100742)",
+      "total": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "LBUM - BENGKULU (KOTA) (100712)",
+      "total": {
+        "reviews": 2,
+        "average_rating": 3.5,
+        "enps": 0.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "LBUM - JEMBATAN LIMA (100025)",
+      "total": {
+        "reviews": 17,
+        "average_rating": 4.412,
+        "enps": 64.71
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 4.0,
+        "enps": 0.0
+      },
+      "after_sales": {
+        "reviews": 4,
+        "average_rating": 4.0,
+        "enps": 50.0
+      }
+    },
+    {
+      "dealer": "LBUM - KEBON JERUK (100026)",
+      "total": {
+        "reviews": 26,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 7,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "LBUM - PANGKAL PINANG (100743)",
+      "total": {
+        "reviews": 2,
+        "average_rating": 3.0,
+        "enps": 0.0
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "LBUM - TAA (Tanjung Api - Api) (100763)",
+      "total": {
+        "reviews": 26,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 7,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "MAHAKAM - BONTANG (100855)",
+      "total": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "MAHAKAM - TENGGARONG (100716)",
+      "total": {
+        "reviews": 5,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "MAHAKAM - WAHID HASYIM (100606)",
+      "total": {
+        "reviews": 43,
+        "average_rating": 4.86,
+        "enps": 86.05
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 15,
+        "average_rating": 4.733,
+        "enps": 73.33
+      }
+    },
+    {
+      "dealer": "MAHLIGAI - CIMAHI (100161)",
+      "total": {
+        "reviews": 2,
+        "average_rating": 3.0,
+        "enps": 0.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "MAHLIGAI - GARDUJATI (100695)",
+      "total": {
+        "reviews": 19,
+        "average_rating": 4.632,
+        "enps": 73.68
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 8,
+        "average_rating": 4.5,
+        "enps": 75.0
+      }
+    },
+    {
+      "dealer": "MAHLIGAI - SUKABUMI (100685)",
+      "total": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "MANDAU - BALIKPAPAN (100064)",
+      "total": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "MANDAU - BALIKPAPAN (100715)",
+      "total": {
+        "reviews": 3,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "MANDAU - BERAU (100890)",
+      "total": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "MITDI - CILACAP (100913)",
+      "total": {
+        "reviews": 4,
+        "average_rating": 3.0,
+        "enps": 0.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 1.0,
+        "enps": -100.0
+      }
+    },
+    {
+      "dealer": "MITDI - KUNINGAN (100914)",
+      "total": {
+        "reviews": 19,
+        "average_rating": 4.789,
+        "enps": 89.47
+      },
+      "sales": {
+        "reviews": 10,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "MITDI - PEKALONGAN (100912)",
+      "total": {
+        "reviews": 7,
+        "average_rating": 4.571,
+        "enps": 57.14
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "MURNI - PAMEKASAN (100893)",
+      "total": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "MUSTIKA - CIBUBUR (100682)",
+      "total": {
+        "reviews": 142,
+        "average_rating": 4.711,
+        "enps": 83.1
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 97,
+        "average_rating": 4.649,
+        "enps": 80.41
+      }
+    },
+    {
+      "dealer": "PRABU - BOGOR (100046)",
+      "total": {
+        "reviews": 32,
+        "average_rating": 4.063,
+        "enps": 50.0
+      },
+      "sales": {
+        "reviews": 4,
+        "average_rating": 1.0,
+        "enps": -100.0
+      },
+      "after_sales": {
+        "reviews": 8,
+        "average_rating": 4.5,
+        "enps": 75.0
+      }
+    },
+    {
+      "dealer": "PRABU - SUBANG (100805)",
+      "total": {
+        "reviews": 12,
+        "average_rating": 4.917,
+        "enps": 91.67
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "SALINDO - DAAN MOGOT (100568)",
+      "total": {
+        "reviews": 4,
+        "average_rating": 4.75,
+        "enps": 75.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "SARDANA - GATSU (MEDAN) (100011)",
+      "total": {
+        "reviews": 119,
+        "average_rating": 4.647,
+        "enps": 75.63
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 45,
+        "average_rating": 4.533,
+        "enps": 73.33
+      }
+    },
+    {
+      "dealer": "SARDANA - KISARAN (100868)",
+      "total": {
+        "reviews": 8,
+        "average_rating": 4.875,
+        "enps": 87.5
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 3,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "SBM - MAKASSAR (100705)",
+      "total": {
+        "reviews": 8,
+        "average_rating": 4.5,
+        "enps": 75.0
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 3.0,
+        "enps": 0.0
+      }
+    },
+    {
+      "dealer": "SDIM - GRESIK (100124)",
+      "total": {
+        "reviews": 11,
+        "average_rating": 4.455,
+        "enps": 63.64
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 4,
+        "average_rating": 4.0,
+        "enps": 50.0
+      }
+    },
+    {
+      "dealer": "SDIM - MOJOKERTO (100125)",
+      "total": {
+        "reviews": 4,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "SDIM - PALANGKARAYA (100726)",
+      "total": {
+        "reviews": 4,
+        "average_rating": 2.0,
+        "enps": -50.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 1.0,
+        "enps": -100.0
+      }
+    },
+    {
+      "dealer": "SDIM - PECINDILAN (SURABAYA) (100127)",
+      "total": {
+        "reviews": 28,
+        "average_rating": 4.536,
+        "enps": 75.0
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 6,
+        "average_rating": 4.333,
+        "enps": 66.67
+      }
+    },
+    {
+      "dealer": "SDIM - SAMPIT (100622)",
+      "total": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "SDIM - WIYUNG SURABAYA (100756)",
+      "total": {
+        "reviews": 40,
+        "average_rating": 4.825,
+        "enps": 87.5
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 1.0,
+        "enps": -100.0
+      },
+      "after_sales": {
+        "reviews": 12,
+        "average_rating": 4.917,
+        "enps": 91.67
+      }
+    },
+    {
+      "dealer": "SDM - ALAM SUTERA (100670)",
+      "total": {
+        "reviews": 46,
+        "average_rating": 4.565,
+        "enps": 73.91
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 1.0,
+        "enps": -100.0
+      },
+      "after_sales": {
+        "reviews": 24,
+        "average_rating": 4.583,
+        "enps": 75.0
+      }
+    },
+    {
+      "dealer": "SDM - BANDUNG (100116)",
+      "total": {
+        "reviews": 25,
+        "average_rating": 3.84,
+        "enps": 20.0
+      },
+      "sales": {
+        "reviews": 2,
+        "average_rating": 4.5,
+        "enps": 50.0
+      },
+      "after_sales": {
+        "reviews": 8,
+        "average_rating": 2.375,
+        "enps": -75.0
+      }
+    },
+    {
+      "dealer": "SDM - CIKAMPEK (100117)",
+      "total": {
+        "reviews": 7,
+        "average_rating": 4.0,
+        "enps": 42.86
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 3.0,
+        "enps": 0.0
+      }
+    },
+    {
+      "dealer": "SDM - CIKUPA (100735)",
+      "total": {
+        "reviews": 25,
+        "average_rating": 4.84,
+        "enps": 92.0
+      },
+      "sales": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 7,
+        "average_rating": 4.429,
+        "enps": 71.43
+      }
+    },
+    {
+      "dealer": "SDM - CILEDUG (100758)",
+      "total": {
+        "reviews": 4,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "SDM - CIPONDOH (100757)",
+      "total": {
+        "reviews": 47,
+        "average_rating": 4.447,
+        "enps": 63.83
+      },
+      "sales": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 15,
+        "average_rating": 4.133,
+        "enps": 46.67
+      }
+    },
+    {
+      "dealer": "SDM - KARAWANG (100725)",
+      "total": {
+        "reviews": 18,
+        "average_rating": 4.833,
+        "enps": 83.33
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 9,
+        "average_rating": 4.778,
+        "enps": 77.78
+      }
+    },
+    {
+      "dealer": "SDM - LENTENG AGUNG (100798)",
+      "total": {
+        "reviews": 9,
+        "average_rating": 4.556,
+        "enps": 66.67
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 6,
+        "average_rating": 4.333,
+        "enps": 50.0
+      }
+    },
+    {
+      "dealer": "SDM - MAMPANG (100572)",
+      "total": {
+        "reviews": 40,
+        "average_rating": 4.6,
+        "enps": 75.0
+      },
+      "sales": {
+        "reviews": 6,
+        "average_rating": 4.333,
+        "enps": 66.67
+      },
+      "after_sales": {
+        "reviews": 11,
+        "average_rating": 4.818,
+        "enps": 81.82
+      }
+    },
+    {
+      "dealer": "SDM - MARGONDA (100862)",
+      "total": {
+        "reviews": 127,
+        "average_rating": 4.953,
+        "enps": 96.85
+      },
+      "sales": {
+        "reviews": 42,
+        "average_rating": 4.952,
+        "enps": 95.24
+      },
+      "after_sales": {
+        "reviews": 46,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "SDM - PANGSUD  (100576)",
+      "total": {
+        "reviews": 29,
+        "average_rating": 4.655,
+        "enps": 79.31
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 11,
+        "average_rating": 4.545,
+        "enps": 72.73
+      }
+    },
+    {
+      "dealer": "SDM - PIK 2 (100919)",
+      "total": {
+        "reviews": 89,
+        "average_rating": 4.933,
+        "enps": 95.51
+      },
+      "sales": {
+        "reviews": 19,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 21,
+        "average_rating": 4.81,
+        "enps": 90.48
+      }
+    },
+    {
+      "dealer": "SDM - PONDOK CABE (100755)",
+      "total": {
+        "reviews": 19,
+        "average_rating": 4.474,
+        "enps": 68.42
+      },
+      "sales": {
+        "reviews": 3,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 4,
+        "average_rating": 4.0,
+        "enps": 50.0
+      }
+    },
+    {
+      "dealer": "SDM - POS PENGUMBEN (100678)",
+      "total": {
+        "reviews": 35,
+        "average_rating": 4.943,
+        "enps": 94.29
+      },
+      "sales": {
+        "reviews": 5,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 12,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "SDM - SEDAYU CITY (100883)",
+      "total": {
+        "reviews": 14,
+        "average_rating": 4.429,
+        "enps": 71.43
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 6,
+        "average_rating": 4.333,
+        "enps": 66.67
+      }
+    },
+    {
+      "dealer": "SDM - SUMEDANG (100907)",
+      "total": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "SDM - SUNTER (100122)",
+      "total": {
+        "reviews": 31,
+        "average_rating": 4.839,
+        "enps": 90.32
+      },
+      "sales": {
+        "reviews": 6,
+        "average_rating": 4.333,
+        "enps": 66.67
+      },
+      "after_sales": {
+        "reviews": 14,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "SGBM - LIMBOTO (GORONTALO) (100669)",
+      "total": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "SPS - ABDURRAHMAN SALEH (100111)",
+      "total": {
+        "reviews": 27,
+        "average_rating": 4.519,
+        "enps": 74.07
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 1.0,
+        "enps": -100.0
+      },
+      "after_sales": {
+        "reviews": 7,
+        "average_rating": 4.429,
+        "enps": 71.43
+      }
+    },
+    {
+      "dealer": "SPS - CIREBON (100661)",
+      "total": {
+        "reviews": 20,
+        "average_rating": 4.35,
+        "enps": 65.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 10,
+        "average_rating": 4.2,
+        "enps": 60.0
+      }
+    },
+    {
+      "dealer": "SPS - INDRAMAYU (100769)",
+      "total": {
+        "reviews": 1,
+        "average_rating": 1.0,
+        "enps": -100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "SUKA FAJAR - DURI (100737)",
+      "total": {
+        "reviews": 4,
+        "average_rating": 4.0,
+        "enps": 50.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "SUKA FAJAR - JAMBI (100702)",
+      "total": {
+        "reviews": 23,
+        "average_rating": 4.565,
+        "enps": 73.91
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 11,
+        "average_rating": 4.455,
+        "enps": 63.64
+      }
+    },
+    {
+      "dealer": "SUKA FAJAR - KHATIB PDG (100718)",
+      "total": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "SUKA FAJAR - MUARA BUNGO (100141)",
+      "total": {
+        "reviews": 2,
+        "average_rating": 3.0,
+        "enps": 0.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 1,
+        "average_rating": 1.0,
+        "enps": -100.0
+      }
+    },
+    {
+      "dealer": "SUKA FAJAR - PADANG (100137)",
+      "total": {
+        "reviews": 15,
+        "average_rating": 4.2,
+        "enps": 33.33
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 5,
+        "average_rating": 4.6,
+        "enps": 60.0
+      }
+    },
+    {
+      "dealer": "SUKA FAJAR - PEKANBARU (100138)",
+      "total": {
+        "reviews": 9,
+        "average_rating": 4.778,
+        "enps": 77.78
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 4.0,
+        "enps": 0.0
+      }
+    },
+    {
+      "dealer": "SUMBER - BANJARMASIN KM.10 (100595)",
+      "total": {
+        "reviews": 6,
+        "average_rating": 4.0,
+        "enps": 33.33
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 3.0,
+        "enps": 0.0
+      }
+    },
+    {
+      "dealer": "SUN - A. YANI (100807)",
+      "total": {
+        "reviews": 158,
+        "average_rating": 4.93,
+        "enps": 95.57
+      },
+      "sales": {
+        "reviews": 23,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 65,
+        "average_rating": 4.862,
+        "enps": 92.31
+      }
+    },
+    {
+      "dealer": "SUN - BADUNG (100666)",
+      "total": {
+        "reviews": 44,
+        "average_rating": 4.591,
+        "enps": 77.27
+      },
+      "sales": {
+        "reviews": 5,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 15,
+        "average_rating": 4.2,
+        "enps": 60.0
+      }
+    },
+    {
+      "dealer": "SUN - BANYUMANIK (100610)",
+      "total": {
+        "reviews": 2,
+        "average_rating": 1.0,
+        "enps": -100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "SUN - BLITAR (100087)",
+      "total": {
+        "reviews": 160,
+        "average_rating": 4.981,
+        "enps": 98.13
+      },
+      "sales": {
+        "reviews": 5,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 97,
+        "average_rating": 4.979,
+        "enps": 97.94
+      }
+    },
+    {
+      "dealer": "SUN - CAMAN (BEKASI) (100766)",
+      "total": {
+        "reviews": 3,
+        "average_rating": 4.667,
+        "enps": 66.67
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "SUN - CEMPAKA PUTIH (100767)",
+      "total": {
+        "reviews": 30,
+        "average_rating": 4.167,
+        "enps": 53.33
+      },
+      "sales": {
+        "reviews": 11,
+        "average_rating": 3.636,
+        "enps": 27.27
+      },
+      "after_sales": {
+        "reviews": 3,
+        "average_rating": 3.667,
+        "enps": 33.33
+      }
+    },
+    {
+      "dealer": "SUN - CIBINONG (100882)",
+      "total": {
+        "reviews": 11,
+        "average_rating": 3.545,
+        "enps": 27.27
+      },
+      "sales": {
+        "reviews": 2,
+        "average_rating": 3.0,
+        "enps": 0.0
+      },
+      "after_sales": {
+        "reviews": 6,
+        "average_rating": 3.0,
+        "enps": 0.0
+      }
+    },
+    {
+      "dealer": "SUN - CIBUBUR (100889)",
+      "total": {
+        "reviews": 96,
+        "average_rating": 4.594,
+        "enps": 77.08
+      },
+      "sales": {
+        "reviews": 8,
+        "average_rating": 3.125,
+        "enps": 0.0
+      },
+      "after_sales": {
+        "reviews": 35,
+        "average_rating": 4.486,
+        "enps": 71.43
+      }
+    },
+    {
+      "dealer": "SUN - CIKARANG (100888)",
+      "total": {
+        "reviews": 1,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "SUN - FATMAWATI (100097)",
+      "total": {
+        "reviews": 73,
+        "average_rating": 4.822,
+        "enps": 87.67
+      },
+      "sales": {
+        "reviews": 5,
+        "average_rating": 4.0,
+        "enps": 40.0
+      },
+      "after_sales": {
+        "reviews": 23,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "SUN - KARTASURA (100709)",
+      "total": {
+        "reviews": 39,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 6,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 19,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "SUN - KEDIRI (100092)",
+      "total": {
+        "reviews": 12,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 3,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 3,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "SUN - KENJERAN (100744)",
+      "total": {
+        "reviews": 33,
+        "average_rating": 4.758,
+        "enps": 87.88
+      },
+      "sales": {
+        "reviews": 17,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 8,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "SUN - KOL SUTARTO (SOLO) (100085)",
+      "total": {
+        "reviews": 95,
+        "average_rating": 4.916,
+        "enps": 93.68
+      },
+      "sales": {
+        "reviews": 6,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 50,
+        "average_rating": 4.88,
+        "enps": 92.0
+      }
+    },
+    {
+      "dealer": "SUN - KUDUS (100700)",
+      "total": {
+        "reviews": 9,
+        "average_rating": 4.0,
+        "enps": 44.44
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 4,
+        "average_rating": 4.0,
+        "enps": 50.0
+      }
+    },
+    {
+      "dealer": "SUN - MALANG (100689)",
+      "total": {
+        "reviews": 117,
+        "average_rating": 4.897,
+        "enps": 94.87
+      },
+      "sales": {
+        "reviews": 17,
+        "average_rating": 4.765,
+        "enps": 88.24
+      },
+      "after_sales": {
+        "reviews": 50,
+        "average_rating": 4.84,
+        "enps": 92.0
+      }
+    },
+    {
+      "dealer": "SUN - MARGAHAYU (BEKASI) (100750)",
+      "total": {
+        "reviews": 42,
+        "average_rating": 4.357,
+        "enps": 64.29
+      },
+      "sales": {
+        "reviews": 11,
+        "average_rating": 4.636,
+        "enps": 81.82
+      },
+      "after_sales": {
+        "reviews": 12,
+        "average_rating": 3.667,
+        "enps": 33.33
+      }
+    },
+    {
+      "dealer": "SUN - MATRAMAN (100887)",
+      "total": {
+        "reviews": 17,
+        "average_rating": 4.588,
+        "enps": 76.47
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 5,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "SUN - MT HARYONO (100650)",
+      "total": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      }
+    },
+    {
+      "dealer": "SUN - NGAGEL (100086)",
+      "total": {
+        "reviews": 18,
+        "average_rating": 4.444,
+        "enps": 66.67
+      },
+      "sales": {
+        "reviews": 1,
+        "average_rating": 1.0,
+        "enps": -100.0
+      },
+      "after_sales": {
+        "reviews": 11,
+        "average_rating": 4.455,
+        "enps": 63.64
+      }
+    },
+    {
+      "dealer": "SUN - PROBOLINGGO (100746)",
+      "total": {
+        "reviews": 124,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 15,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 66,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "SUN - PURWOKERTO (100724)",
+      "total": {
+        "reviews": 124,
+        "average_rating": 4.855,
+        "enps": 90.32
+      },
+      "sales": {
+        "reviews": 25,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 37,
+        "average_rating": 4.946,
+        "enps": 94.59
+      }
+    },
+    {
+      "dealer": "SUN - SILIWANGI (100731)",
+      "total": {
+        "reviews": 8,
+        "average_rating": 4.5,
+        "enps": 75.0
+      },
+      "sales": {
+        "reviews": 2,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 2,
+        "average_rating": 3.0,
+        "enps": 0.0
+      }
+    },
+    {
+      "dealer": "SUN - SINGOSARI (MALANG) (100566)",
+      "total": {
+        "reviews": 96,
+        "average_rating": 4.896,
+        "enps": 92.71
+      },
+      "sales": {
+        "reviews": 38,
+        "average_rating": 4.974,
+        "enps": 97.37
+      },
+      "after_sales": {
+        "reviews": 23,
+        "average_rating": 4.609,
+        "enps": 73.91
+      }
+    },
+    {
+      "dealer": "SUN - SLEMAN (YOGYA) (100906)",
+      "total": {
+        "reviews": 84,
+        "average_rating": 4.988,
+        "enps": 98.81
+      },
+      "sales": {
+        "reviews": 24,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 32,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "SUN - TAJUR (100761)",
+      "total": {
+        "reviews": 17,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "sales": {
+        "reviews": 3,
+        "average_rating": 5.0,
+        "enps": 100.0
+      },
+      "after_sales": {
+        "reviews": 8,
+        "average_rating": 5.0,
+        "enps": 100.0
+      }
+    },
+    {
+      "dealer": "SUN - TUBAN (100745)",
+      "total": {
+        "reviews": 69,
+        "average_rating": 4.797,
+        "enps": 88.41
+      },
+      "sales": {
+        "reviews": 4,
+        "average_rating": 4.0,
+        "enps": 50.0
+      },
+      "after_sales": {
+        "reviews": 39,
+        "average_rating": 4.846,
+        "enps": 89.74
+      }
+    },
+    {
+      "dealer": "SUN - YASMIN (100752)",
+      "total": {
+        "reviews": 14,
+        "average_rating": 3.5,
+        "enps": 0.0
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 6,
+        "average_rating": 2.5,
+        "enps": -50.0
+      }
+    },
+    {
+      "dealer": "WICAKSANA - AHMAD YANI (100170)",
+      "total": {
+        "reviews": 63,
+        "average_rating": 4.698,
+        "enps": 82.54
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 22,
+        "average_rating": 4.227,
+        "enps": 59.09
+      }
+    },
+    {
+      "dealer": "WICAKSANA - SURAPATI (100708)",
+      "total": {
+        "reviews": 49,
+        "average_rating": 4.878,
+        "enps": 91.84
+      },
+      "sales": {
+        "reviews": 0,
+        "average_rating": null,
+        "enps": null
+      },
+      "after_sales": {
+        "reviews": 21,
+        "average_rating": 4.762,
+        "enps": 85.71
+      }
+    }
+  ]
+}
