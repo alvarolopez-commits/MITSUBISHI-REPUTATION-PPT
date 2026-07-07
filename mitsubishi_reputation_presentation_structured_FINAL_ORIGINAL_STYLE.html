@@ -1154,25 +1154,102 @@ h1.split-title{margin-bottom:8px}
 .download-btn{display:inline-flex;align-items:center;gap:10px;padding:14px 36px;background:rgba(26,77,122,.85);border:1.5px solid rgba(139,205,255,.4);border-radius:999px;color:#fff;font-size:11.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;transition:background .2s,transform .18s;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);}
 .download-btn:hover{background:rgba(26,100,165,.95);transform:translateY(-2px);}
 
-/* === SLIDE-15/16: taller tables — override space-between, let table grow === */
-#slide-15 .slide-bottom{justify-content:flex-start!important;gap:12px!important;}
-#slide-15 .mini-table{flex:1 1 0!important;min-height:0!important;margin-top:0!important;}
-#slide-15 .dealer-table th{padding:13px 10px!important;font-size:9.5px!important;}
-#slide-15 .dealer-table td{padding:12px 10px!important;font-size:11.5px!important;}
-#slide-15 .insight-box{margin-top:0!important;}
-#slide-15 .performance-legend{margin-top:0!important;}
+/* === SLIDE-03: full title in Orbitron, 2 lines max === */
+#slide-03 h1{font-size:30px!important;line-height:1.2!important;margin-bottom:10px!important;}
+#slide-03 .lead{margin-bottom:0!important;}
+#slide-03 .insight-box{margin-top:0!important;}
 
-#slide-16 .slide-bottom{justify-content:flex-start!important;gap:12px!important;}
-#slide-16 .mini-table{flex:1 1 0!important;min-height:0!important;margin-top:0!important;}
-#slide-16 .mini-table th{padding:11px 12px!important;}
-#slide-16 .mini-table td{padding:10px 12px!important;}
-#slide-16 .insight-box{margin-top:0!important;}
-#slide-16 .performance-legend{margin-top:0!important;}
+/* === SLIDE-02: Orbitron agenda titles, no subtitles === */
+.agenda-card strong{
+  font-family:'Orbitron',sans-serif!important;
+  font-size:28px!important;
+  font-weight:700!important;
+  line-height:1.2!important;
+  letter-spacing:-.01em!important;
+  margin-bottom:0!important;
+}
+.agenda-num{
+  font-family:'Montserrat',sans-serif!important;
+  font-size:24px!important;
+}
+
+/* ===== UI AUDIT — OVERFLOW / CLIPPING FIXES ===== */
+
+/* SLIDE-05: bar-panel 107px over → compact rows, enable internal scroll */
+#slide-05 .bar-panel{min-height:0!important;overflow:hidden!important;overflow-y:auto!important;}
+#slide-05 .hbar-row{margin:3px 0!important;}
+#slide-05 .hbar-label{font-size:11.5px!important;}
+#slide-05 .metric-card.compact{padding:12px 16px!important;}
+#slide-05 .metric-value{font-size:34px!important;}
+
+/* SLIDE-09: scorecard columns clip visual-cards and mini-tables */
+#slide-09 .visual-card{overflow:hidden!important;min-height:0!important;}
+#slide-09 .mini-table{overflow-y:auto!important;min-height:0!important;}
+
+/* SLIDE-10: pair-panel 41px over → smaller circles, tighter rows */
+#slide-10 .pair-gap{width:32px!important;height:32px!important;font-size:11px!important;}
+#slide-10 .pair-bar{height:20px!important;}
+#slide-10 .pair-panel{min-height:0!important;overflow:hidden!important;overflow-y:auto!important;}
+
+/* SLIDES 11 & 12: bottom-split 79px/54px over → compact table + visual-card */
+#slide-11 .mini-table td,#slide-12 .mini-table td{padding:5px 8px!important;font-size:11px!important;}
+#slide-11 .mini-table th,#slide-12 .mini-table th{padding:5px 8px!important;font-size:9px!important;}
+#slide-11 .insight-kpi,#slide-12 .insight-kpi{padding:10px 14px!important;}
+#slide-11 .insight-kpi h4,#slide-12 .insight-kpi h4{font-size:13px!important;margin-bottom:3px!important;}
+#slide-11 .insight-kpi p,#slide-12 .insight-kpi p{font-size:11.5px!important;line-height:1.38!important;}
+#slide-11 .visual-card,#slide-12 .visual-card{overflow:hidden!important;}
+#slide-11 .panel-title,#slide-12 .panel-title{font-size:12px!important;margin-bottom:8px!important;}
+
+/* === SLIDE-15/16: space-between distribution, table grows but won't overflow === */
+#slide-15 .slide-bottom{justify-content:space-between!important;gap:8px!important;}
+#slide-15 .mini-table{flex:1 1 0!important;min-height:0!important;overflow:hidden!important;margin-top:0!important;}
+#slide-15 .dealer-table th{padding:9px 10px!important;font-size:9.5px!important;}
+#slide-15 .dealer-table td{padding:8px 10px!important;font-size:11.5px!important;}
+#slide-15 .performance-legend{flex-shrink:0!important;margin-top:0!important;}
+#slide-15 .insight-box{flex-shrink:0!important;margin-top:0!important;}
+
+#slide-16 .slide-bottom{justify-content:space-between!important;gap:8px!important;}
+#slide-16 .mini-table{flex:1 1 0!important;min-height:0!important;overflow:hidden!important;margin-top:0!important;}
+#slide-16 .mini-table th{padding:8px 12px!important;}
+#slide-16 .mini-table td{padding:7px 12px!important;}
+#slide-16 .performance-legend{flex-shrink:0!important;margin-top:0!important;}
+#slide-16 .insight-box{flex-shrink:0!important;margin-top:0!important;}
 
 /* === SLIDE-10: pair-gap circles === */
 #slide-10 .pair-gap{width:38px!important;height:38px!important;border-radius:50%!important;display:flex!important;align-items:center!important;justify-content:center!important;font-size:12px!important;font-weight:700!important;color:#fff!important;text-align:center!important;flex-shrink:0!important;}
 #slide-10 .pair-gap.neg{background:#e05454!important;}
 #slide-10 .pair-gap.pos{background:#22a06b!important;}
+
+/* ===== UI AUDIT PASS 2 — REMAINING OVERFLOW FIXES ===== */
+
+/* SLIDE-03: insight-box 7px over → tighten h1 bottom margin */
+#slide-03 h1{margin-bottom:4px!important;}
+
+/* SLIDE-09: 65/52/92px over — shorten padding-top, clip main, compact every layer */
+#slide-09 main.content{padding-top:52px!important;overflow:hidden!important;}
+#slide-09 h1{font-size:28px!important;line-height:1.18!important;margin-bottom:8px!important;}
+#slide-09 .kpi-quad{gap:8px!important;margin-top:6px!important;}
+#slide-09 .kpi-quad .metric-card{padding:8px 14px!important;}
+#slide-09 .kpi-quad .metric-value{font-size:26px!important;}
+#slide-09 .dealer-section-title{margin:6px 0 4px!important;}
+#slide-09 .trio-grid{gap:6px!important;}
+#slide-09 .visual-card{padding:8px 10px!important;}
+#slide-09 .mini-table th,#slide-09 .mini-table td{padding:2px 6px!important;font-size:9.5px!important;}
+#slide-09 .panel-title{margin-bottom:4px!important;}
+
+/* SLIDE-11/12: visual-card bleeds 28px → clip bottom-split + compact kpi-grid */
+#slide-11 .bottom-split,#slide-12 .bottom-split{overflow:hidden!important;}
+#slide-11 .visual-card,#slide-12 .visual-card{padding:8px 12px!important;}
+#slide-11 .insight-kpi,#slide-12 .insight-kpi{padding:5px 10px!important;}
+#slide-11 .insight-kpi p,#slide-12 .insight-kpi p{line-height:1.3!important;}
+#slide-11 .insight-kpi-grid,#slide-12 .insight-kpi-grid{gap:6px!important;}
+#slide-11 .panel-title,#slide-12 .panel-title{margin-bottom:4px!important;}
+
+/* SLIDE-15/16: insight-box 28px over — reduce cell padding so table fits naturally */
+#slide-15 .dealer-table th{padding:3px 10px!important;}
+#slide-15 .dealer-table td{padding:3px 10px!important;font-size:11px!important;}
+#slide-16 .mini-table th{padding:3px 12px!important;}
+#slide-16 .mini-table td{padding:3px 12px!important;}
 </style></head>
 <body>
 <div class="deck" id="deck">
@@ -1199,27 +1276,22 @@ h1.split-title{margin-bottom:8px}
 <button class="agenda-card" data-target="market">
 <span class="agenda-num">01</span>
 <strong>Market overview</strong>
-<em>How Mitsubishi performs against the full market</em>
 </button>
 <button class="agenda-card" data-target="performance">
 <span class="agenda-num">02</span>
 <strong>Mitsubishi performance</strong>
-<em>Brand KPI scorecard and sales / after-sales split</em>
 </button>
 <button class="agenda-card" data-target="dealer">
 <span class="agenda-num">03</span>
 <strong>Dealer detail</strong>
-<em>High-volume dealer table and network coverage</em>
 </button>
 <button class="agenda-card" data-target="drivers">
 <span class="agenda-num">04</span>
 <strong>Drivers &amp; barriers</strong>
-<em>Positive drivers, barriers and benchmark comparison</em>
 </button>
 <button class="agenda-card" data-target="recommendations">
 <span class="agenda-num">05</span>
 <strong>Recommendations</strong>
-<em>Prioritised operational actions and evidence level</em>
 </button></div>
 </main>
 <div class="slide-footer"><img alt="Mitsubishi" class="mitsu-logo-footer" src="DEPLOY/mitsu-logo-w.png"/><span>MITSUBISHI INDONESIA · REPUTATION INTELLIGENCE REPORT</span><span class="footer-right">ANALYSIS PERIOD · JANUARY–JUNE 2026</span></div>
@@ -1231,7 +1303,7 @@ h1.split-title{margin-bottom:8px}
 <main class="content-grid">
 <div class="slide-top">
 <p class="eyebrow">Executive snapshot</p>
-<h1 class="split-title">Mitsubishi sits in the middle of the ranking</h1><p class="title-subtitle">with clear pockets of opportunity across the network</p>
+<h1>Mitsubishi sits in the middle of the ranking<br>with clear pockets of opportunity across the network</h1>
 <p class="lead">The brand ranks <strong>7th of 11</strong> on total eNPS, <strong>7.3 points below</strong> the market average — sales is the weaker internal KPI.</p>
 </div>
 <div class="slide-bottom">
