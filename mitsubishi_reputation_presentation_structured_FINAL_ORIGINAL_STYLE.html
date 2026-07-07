@@ -1225,6 +1225,11 @@ h1.split-title{margin-bottom:8px}
 /* SLIDE-03: insight-box 7px over → tighten h1 bottom margin */
 #slide-03 h1{margin-bottom:4px!important;}
 
+/* SLIDE-06: highlight Mitsubishi row in ranking table */
+#slide-06 .ranking-table tr.focus td{background:rgba(26,77,122,.09)!important;border-top:1.5px solid rgba(26,77,122,.25)!important;border-bottom:1.5px solid rgba(26,77,122,.25)!important;}
+#slide-06 .ranking-table tr.focus td strong{color:var(--blue)!important;font-weight:800!important;}
+#slide-06 .ranking-table tr.focus .rank{background:var(--blue)!important;color:#fff!important;}
+
 /* SLIDE-09: 65/52/92px over — shorten padding-top, clip main, compact every layer */
 #slide-09 main.content{padding-top:52px!important;overflow:hidden!important;}
 #slide-09 h1{font-size:28px!important;line-height:1.18!important;margin-bottom:8px!important;}
@@ -1245,11 +1250,47 @@ h1.split-title{margin-bottom:8px}
 #slide-11 .insight-kpi-grid,#slide-12 .insight-kpi-grid{gap:6px!important;}
 #slide-11 .panel-title,#slide-12 .panel-title{margin-bottom:4px!important;}
 
+/* SLIDE-09: breathe layout — 68px spare at bottom → distribute as spacing */
+#slide-09 main.content{padding-top:60px!important;}
+#slide-09 .kpi-quad{margin-top:12px!important;gap:10px!important;}
+#slide-09 .kpi-quad .metric-card{padding:11px 14px!important;}
+#slide-09 .dealer-section-title{margin:12px 0 8px!important;}
+#slide-09 .trio-grid{gap:8px!important;}
+#slide-09 .visual-card{padding:10px 12px!important;}
+#slide-09 .scorecard-divider{margin:8px 0 6px!important;}
+
 /* SLIDE-15/16: insight-box 28px over — reduce cell padding so table fits naturally */
 #slide-15 .dealer-table th{padding:3px 10px!important;}
 #slide-15 .dealer-table td{padding:3px 10px!important;font-size:11px!important;}
 #slide-16 .mini-table th{padding:3px 12px!important;}
 #slide-16 .mini-table td{padding:3px 12px!important;}
+
+/* ===== SLIDE-10: highlight Mitsubishi pair-row in blue ===== */
+#slide-10 .pair-row.focus{background:rgba(26,77,122,.09)!important;border-radius:14px}
+#slide-10 .pair-row.focus .pair-name{color:var(--blue)!important;font-weight:800!important}
+
+/* ===== PANORAMIC IMAGE PLACEHOLDER · slides 23-25 ===== */
+#slide-24 main.content-grid,#slide-25 main.content-grid,#slide-26 main.content-grid{padding-top:44px!important;}
+#slide-24 .reco-grid,#slide-25 .reco-grid,#slide-26 .reco-grid{margin-top:10px!important;}
+
+/* ===== SLIDE-09: redistribute whitespace — fill bottom ===== */
+#slide-09 main.content{padding-top:52px!important;}
+#slide-09 p.eyebrow{margin-bottom:4px!important;}
+#slide-09 h1{margin-top:0!important;margin-bottom:6px!important;}
+#slide-09 .kpi-quad{margin-top:4px!important;gap:10px!important;}
+#slide-09 .kpi-quad .metric-card{padding:8px 14px!important;}
+#slide-09 .dealer-section-title{margin:6px 0 6px!important;}
+#slide-09 .scorecard-divider{margin:4px 0 4px!important;}
+#slide-09 .trio-grid{gap:10px!important;}
+#slide-09 .mini-table th,#slide-09 .mini-table td{padding:3px 6px!important;font-size:10px!important;}
+#slide-09 .panel-title{margin-bottom:6px!important;}
+
+/* ===== SLIDE-21: images fill full card, header overlaid at bottom ===== */
+#slide-21 .quad-card:has(img){position:relative!important;}
+#slide-21 .quad-card:has(img) .quad-header{position:absolute!important;bottom:0!important;left:0!important;right:0!important;z-index:2!important;padding:10px 16px!important;background:linear-gradient(to top,rgba(6,30,62,.97) 0%,rgba(6,30,62,.72) 100%)!important;}
+#slide-21 .quad-card:has(img) .quad-header p{display:none!important;}
+#slide-21 .quad-body:has(img){position:absolute!important;inset:0!important;padding:0!important;z-index:1!important;min-height:0!important;align-items:stretch!important;}
+#slide-21 .quad-body img{width:100%;height:100%;object-fit:cover;display:block}
 </style></head>
 <body>
 <div class="deck" id="deck">
@@ -1318,7 +1359,7 @@ h1.split-title{margin-bottom:8px}
 <div style="flex:1">
 <div class="metric-label">Reviews per Dealer</div>
 <div class="metric-value">29</div>
-<div class="metric-sub">157 Active dealers</div>
+<div class="metric-sub">Market avg: 76 · 157 dealers</div>
 </div>
 </div>
 <div class="metric-card compact"><div class="metric-label">Total eNPS</div><div class="metric-value">82</div><div class="metric-sub">-7 Vs market 89</div></div>
@@ -1434,22 +1475,10 @@ h1.split-title{margin-bottom:8px}
 <div class="slide-bottom">
 <div class="bottom-split">
 <div>
-<table class="mini-table ranking-table compact indexed-table"><thead><tr><th style="text-align:center">#</th><th>Brand</th><th style="text-align:center">eNPS total</th><th style="text-align:center">Reviews</th><th style="text-align:center">Active dealers</th><th style="text-align:center">Reviews / dealer</th></tr></thead><tbody><tr><td><span class="rank">1</span></td><td><strong>Bengkel Mobil BOS</strong></td><td><span class="good">95</span></td><td>7,001</td><td>28/28</td><td><span class="rd-hi">250</span></td></tr><tr><td><span class="rank">2</span></td><td><strong>Toyota</strong></td><td><span class="good">92</span></td><td>32,080</td><td>351/363</td><td><span class="rd-mid">91</span></td></tr><tr><td><span class="rank">3</span></td><td><strong>Honda</strong></td><td><span class="good">91</span></td><td>14,464</td><td>180/188</td><td><span class="rd-mid">80</span></td></tr><tr><td><span class="rank">4</span></td><td><strong>Lexus</strong></td><td><span class="good">89</span></td><td>190</td><td>3/3</td><td><span class="rd-mid">63</span></td></tr><tr><td><span class="rank">5</span></td><td><strong>B-Quik</strong></td><td><span class="good">86</span></td><td>7,578</td><td>41/41</td><td><span class="rd-hi">185</span></td></tr><tr><td><span class="rank">6</span></td><td><strong>BYD</strong></td><td><span class="ok">83</span></td><td>4,054</td><td>74/76</td><td><span class="rd-mid">55</span></td></tr><tr><td><span class="rank">7</span></td><td><strong>Mitsubishi</strong></td><td><span class="ok">82</span></td><td>4,512</td><td>157/159</td><td><span class="rd-lo">29</span></td></tr><tr><td><span class="rank">8</span></td><td><strong>Hyundai</strong></td><td><span class="ok">80</span></td><td>5,021</td><td>99/107</td><td><span class="rd-mid">51</span></td></tr><tr><td><span class="rank">9</span></td><td><strong>Chery</strong></td><td><span class="ok">71</span></td><td>2,594</td><td>68/74</td><td><span class="rd-lo">38</span></td></tr><tr><td><span class="rank">10</span></td><td><strong>Mazda</strong></td><td><span class="ok">71</span></td><td>413</td><td>26/26</td><td><span class="rd-lo">16</span></td></tr><tr><td><span class="rank">11</span></td><td><strong>Otoklix</strong></td><td><span class="warn">65</span></td><td>272</td><td>4/4</td><td><span class="rd-mid">68</span></td></tr></tbody></table>
+<table class="mini-table ranking-table compact indexed-table"><thead><tr><th style="text-align:center">#</th><th>Brand</th><th style="text-align:center">eNPS total</th><th style="text-align:center">Reviews</th><th style="text-align:center">Active dealers</th><th style="text-align:center">Reviews / dealer</th></tr></thead><tbody><tr><td><span class="rank">1</span></td><td><strong>Bengkel Mobil BOS</strong></td><td><span class="good">95</span></td><td>7,001</td><td>28/28</td><td><span class="rd-hi">250</span></td></tr><tr><td><span class="rank">2</span></td><td><strong>Toyota</strong></td><td><span class="good">92</span></td><td>32,080</td><td>351/363</td><td><span class="rd-mid">91</span></td></tr><tr><td><span class="rank">3</span></td><td><strong>Honda</strong></td><td><span class="good">91</span></td><td>14,464</td><td>180/188</td><td><span class="rd-mid">80</span></td></tr><tr><td><span class="rank">4</span></td><td><strong>Lexus</strong></td><td><span class="good">89</span></td><td>190</td><td>3/3</td><td><span class="rd-mid">63</span></td></tr><tr><td><span class="rank">5</span></td><td><strong>B-Quik</strong></td><td><span class="good">86</span></td><td>7,578</td><td>41/41</td><td><span class="rd-hi">185</span></td></tr><tr><td><span class="rank">6</span></td><td><strong>BYD</strong></td><td><span class="ok">83</span></td><td>4,054</td><td>74/76</td><td><span class="rd-mid">55</span></td></tr><tr class="focus"><td><span class="rank">7</span></td><td><strong>Mitsubishi</strong></td><td><span class="ok">82</span></td><td>4,512</td><td>157/159</td><td><span class="rd-lo">29</span></td></tr><tr><td><span class="rank">8</span></td><td><strong>Hyundai</strong></td><td><span class="ok">80</span></td><td>5,021</td><td>99/107</td><td><span class="rd-mid">51</span></td></tr><tr><td><span class="rank">9</span></td><td><strong>Chery</strong></td><td><span class="ok">71</span></td><td>2,594</td><td>68/74</td><td><span class="rd-lo">38</span></td></tr><tr><td><span class="rank">10</span></td><td><strong>Mazda</strong></td><td><span class="ok">71</span></td><td>413</td><td>26/26</td><td><span class="rd-lo">16</span></td></tr><tr><td><span class="rank">11</span></td><td><strong>Otoklix</strong></td><td><span class="warn">65</span></td><td>272</td><td>4/4</td><td><span class="rd-mid">68</span></td></tr></tbody></table>
 <div class="legend" style="margin-top:14px;font-size:11px"><span class="rd-hi">●</span> 100+ reviews/dealer  <span class="rd-mid">●</span> 50 to 100  <span class="rd-lo">●</span> &lt;50</div>
 </div>
-<div class="bar-panel"><div class="panel-title">Total eNPS by brand</div>
-<div class="hbar-row smallbar"><div class="hbar-label">Bengkel Mobil BOS</div><div class="hbar-track"><div class="hbar-fill excellent" style="width:95%"></div></div><div class="hbar-value">95</div></div>
-<div class="hbar-row smallbar"><div class="hbar-label">Toyota</div><div class="hbar-track"><div class="hbar-fill excellent" style="width:92%"></div></div><div class="hbar-value">92</div></div>
-<div class="hbar-row smallbar"><div class="hbar-label">Honda</div><div class="hbar-track"><div class="hbar-fill excellent" style="width:91%"></div></div><div class="hbar-value">91</div></div>
-<div class="hbar-row smallbar"><div class="hbar-label">Lexus</div><div class="hbar-track"><div class="hbar-fill solid" style="width:89%"></div></div><div class="hbar-value">89</div></div>
-<div class="hbar-row smallbar"><div class="hbar-label">B-Quik</div><div class="hbar-track"><div class="hbar-fill solid" style="width:86%"></div></div><div class="hbar-value">86</div></div>
-<div class="hbar-row smallbar"><div class="hbar-label">BYD</div><div class="hbar-track"><div class="hbar-fill solid" style="width:83%"></div></div><div class="hbar-value">83</div></div>
-<div class="hbar-row smallbar focus"><div class="hbar-label">Mitsubishi</div><div class="hbar-track"><div class="hbar-fill solid" style="width:82%"></div></div><div class="hbar-value">82</div></div>
-<div class="hbar-row smallbar"><div class="hbar-label">Hyundai</div><div class="hbar-track"><div class="hbar-fill solid" style="width:80%"></div></div><div class="hbar-value">80</div></div>
-<div class="hbar-row smallbar"><div class="hbar-label">Chery</div><div class="hbar-track"><div class="hbar-fill mid" style="width:71%"></div></div><div class="hbar-value">71</div></div>
-<div class="hbar-row smallbar"><div class="hbar-label">Mazda</div><div class="hbar-track"><div class="hbar-fill mid" style="width:71%"></div></div><div class="hbar-value">71</div></div>
-<div class="hbar-row smallbar"><div class="hbar-label">Otoklix</div><div class="hbar-track"><div class="hbar-fill lower" style="width:65%"></div></div><div class="hbar-value">65</div></div>
-</div>
+<img src="DEPLOY/SLIDE00.png" alt="" style="flex:1;min-height:0;border-radius:20px;object-fit:cover;width:100%;display:block">
 </div>
 </div>
 </main><div class="slide-footer"><img alt="Mitsubishi" class="mitsu-logo-footer-b" src="DEPLOY/mitsu-logo-b.png"/><span>MITSUBISHI INDONESIA · REPUTATION INTELLIGENCE REPORT</span><span class="footer-right">ANALYSIS PERIOD · JANUARY–JUNE 2026</span></div>
@@ -1596,7 +1625,7 @@ h1.split-title{margin-bottom:8px}
 <div class="visual-card bottom-section"><div class="panel-title">Sales eNPS (≥10 reviews)</div><table class="mini-table compact-table small dealer-rank-table"><thead><tr><th>Dealer</th><th style="text-align:center">Reviews</th><th style="text-align:center">eNPS</th></tr></thead><tbody>
 <tr><td>SUN - Cempaka Putih</td><td>11</td><td><span class="perf-score critical">27</span></td></tr>
 <tr><td>DIPO - Puri</td><td>43</td><td><span class="perf-score attention">63</span></td></tr>
-<tr><td>SUN - Margahayu</td><td>11</td><td><span class="perf-score mid">82</span></td></tr>
+<tr><td>SUN - Margahayu</td><td>11</td><td><span class="perf-score solid">82</span></td></tr>
 <tr><td>SUN - Malang</td><td>17</td><td><span class="perf-score solid">88</span></td></tr>
 <tr><td>SDM - Margonda</td><td>42</td><td><span class="perf-score excellent">95</span></td></tr>
 </tbody></table></div>
@@ -1624,24 +1653,9 @@ h1.split-title{margin-bottom:8px}
 <div class="legend"><span class="sales-dot"></span>Sales eNPS <span class="after-dot"></span>After-sales eNPS <span class="gap-label">right column = After sales-Sales</span></div>
 <div class="pair-panel">
 <div class="pair-row">
-<div class="pair-name">BYD</div>
-<div class="pair-bars"><div class="pair-bar sales" style="width:86.6%"><span>87</span></div><div class="pair-bar after" style="width:70.0%"><span>70</span></div></div>
-<div class="pair-gap neg">-17</div>
-</div>
-<div class="pair-row">
-<div class="pair-name">Chery</div>
-<div class="pair-bars"><div class="pair-bar sales" style="width:64.2%"><span>64</span></div><div class="pair-bar after" style="width:50.1%"><span>50</span></div></div>
-<div class="pair-gap neg">-14</div>
-</div>
-<div class="pair-row">
-<div class="pair-name">Hyundai</div>
-<div class="pair-bars"><div class="pair-bar sales" style="width:73.5%"><span>74</span></div><div class="pair-bar after" style="width:66.4%"><span>66</span></div></div>
-<div class="pair-gap neg">-7</div>
-</div>
-<div class="pair-row focus">
-<div class="pair-name">Mitsubishi</div>
-<div class="pair-bars"><div class="pair-bar sales" style="width:75.4%"><span>75</span></div><div class="pair-bar after" style="width:78.3%"><span>78</span></div></div>
-<div class="pair-gap pos">+3</div>
+<div class="pair-name">Toyota</div>
+<div class="pair-bars"><div class="pair-bar sales" style="width:94.0%"><span>94</span></div><div class="pair-bar after" style="width:89.4%"><span>89</span></div></div>
+<div class="pair-gap neg">-5</div>
 </div>
 <div class="pair-row">
 <div class="pair-name">Honda</div>
@@ -1649,10 +1663,27 @@ h1.split-title{margin-bottom:8px}
 <div class="pair-gap neg">-2</div>
 </div>
 <div class="pair-row">
-<div class="pair-name">Toyota</div>
-<div class="pair-bars"><div class="pair-bar sales" style="width:94.0%"><span>94</span></div><div class="pair-bar after" style="width:89.4%"><span>89</span></div></div>
-<div class="pair-gap neg">-5</div>
-</div></div></div>
+<div class="pair-name">BYD</div>
+<div class="pair-bars"><div class="pair-bar sales" style="width:86.6%"><span>87</span></div><div class="pair-bar after" style="width:70.0%"><span>70</span></div></div>
+<div class="pair-gap neg">-17</div>
+</div>
+<div class="pair-row focus">
+<div class="pair-name">Mitsubishi</div>
+<div class="pair-bars"><div class="pair-bar sales" style="width:75.4%"><span>75</span></div><div class="pair-bar after" style="width:78.3%"><span>78</span></div></div>
+<div class="pair-gap pos">+3</div>
+</div>
+<div class="pair-row">
+<div class="pair-name">Hyundai</div>
+<div class="pair-bars"><div class="pair-bar sales" style="width:73.5%"><span>74</span></div><div class="pair-bar after" style="width:66.4%"><span>66</span></div></div>
+<div class="pair-gap neg">-7</div>
+</div>
+<div class="pair-row">
+<div class="pair-name">Chery</div>
+<div class="pair-bars"><div class="pair-bar sales" style="width:64.2%"><span>64</span></div><div class="pair-bar after" style="width:50.1%"><span>50</span></div></div>
+<div class="pair-gap neg">-14</div>
+</div></div>
+<img src="DEPLOY/SLIDE10.png" alt="" style="border-radius:20px;object-fit:cover;width:100%;height:100%;display:block;min-height:0">
+</div>
 </main><div class="slide-footer"><img alt="Mitsubishi" class="mitsu-logo-footer-b" src="DEPLOY/mitsu-logo-b.png"/><span>MITSUBISHI INDONESIA · REPUTATION INTELLIGENCE REPORT</span><span class="footer-right">ANALYSIS PERIOD · JANUARY–JUNE 2026</span></div>
 </section><section class="slide light" data-chapter="performance" data-label="Top 10 dealers" id="slide-11">
 <div class="topbar">
@@ -1662,7 +1693,7 @@ h1.split-title{margin-bottom:8px}
 <main class="content-grid">
 <div class="slide-top">
 <p class="eyebrow">02 Mitsubishi performance</p>
-<h1>Mitsubishi’s Top Performing Dealers</h1>
+<h1 style="color:var(--perf-excellent)">Mitsubishi’s TOP 10 Dealers</h1>
 <p class="lead">Among Mitsubishi dealers with the strongest customer reviews, staff quality emerges as the common success pattern.</p>
 </div>
 <div class="slide-bottom">
@@ -1737,10 +1768,7 @@ h1.split-title{margin-bottom:8px}
 <p>of Mitsubishi dealers have fewer than 50 reviews in six months.</p>
 <small>134 of 159 registered dealers</small>
 </div>
-<div class="img-placeholder">
-<svg fill="none" height="38" stroke="currentColor" stroke-width="1.3" viewbox="0 0 24 24" width="38"><rect height="18" rx="3" width="18" x="3" y="3"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="m21 15-5-5L5 21"></path></svg>
-<span>Insert image</span>
-</div>
+<img src="DEPLOY/SLIDE%2013.png" alt="" style="flex:1;min-height:0;border-radius:20px;object-fit:cover;width:100%;display:block">
 </div>
 </main><div class="slide-footer"><img alt="Mitsubishi" class="mitsu-logo-footer-b" src="DEPLOY/mitsu-logo-b.png"/><span>MITSUBISHI INDONESIA · REPUTATION INTELLIGENCE REPORT</span><span class="footer-right">ANALYSIS PERIOD · JANUARY–JUNE 2026</span></div>
 </section><section class="slide section-divider" data-chapter="dealer" data-label="Dealer detail" id="slide-14">
@@ -1767,7 +1795,7 @@ h1.split-title{margin-bottom:8px}
 </div>
 <div class="slide-bottom">
 <div class="table-title" style="margin-top:0">High-volume Mitsubishi dealers</div>
-<table class="mini-table dealer-table"><thead><tr><th>Dealer</th><th>Region</th><th>City</th><th style="text-align:center">Reviews</th><th style="text-align:center">★ GOOGLE RATING</th><th style="text-align:center">eNPS</th><th style="text-align:center">Sales</th><th style="text-align:center">After-sales</th></tr></thead><tbody><tr><td><strong>SUN - Probolinggo</strong></td><td>Region 4</td><td>Probolinggo</td><td>124</td><td><span class="rating-stars"><span>5.0</span> <span class="stars-google">★★★★★</span></span></td><td><span class="perf-score excellent">100</span></td><td>100</td><td>100</td></tr><tr><td><strong>SUN - Blitar</strong></td><td>Region 4</td><td>Blitar</td><td>159</td><td><span class="rating-stars"><span>5.0</span> <span class="stars-google">★★★★★</span></span></td><td><span class="perf-score excellent">98</span></td><td>100</td><td>98</td></tr><tr><td><strong>SDM - Margonda</strong></td><td>Region 1</td><td>Depok</td><td>127</td><td><span class="rating-stars"><span>5.0</span> <span class="stars-google">★★★★★</span></span></td><td><span class="perf-score excellent">97</span></td><td>95</td><td>100</td></tr><tr><td><strong>DIPO - Pluit</strong></td><td>Region 1</td><td>Jakarta Utara</td><td>164</td><td><span class="rating-stars"><span>4.9</span> <span class="stars-google">★★★★★</span></span></td><td><span class="perf-score excellent">96</span></td><td>100</td><td>96</td></tr><tr><td><strong>SUN - A. Yani</strong></td><td>Region 4</td><td>Surabaya</td><td>157</td><td><span class="rating-stars"><span>4.9</span> <span class="stars-google">★★★★★</span></span></td><td><span class="perf-score excellent">96</span></td><td>100</td><td>92</td></tr><tr><td><strong>SUN - Malang</strong></td><td>Region 4</td><td>Malang</td><td>117</td><td><span class="rating-stars"><span>4.9</span> <span class="stars-google">★★★★★</span></span></td><td><span class="perf-score excellent">95</span></td><td>88</td><td>92</td></tr><tr><td><strong>SUN - Purwokerto</strong></td><td>Region 2</td><td>Banyumas</td><td>121</td><td><span class="rating-stars"><span>4.9</span> <span class="stars-google">★★★★★</span></span></td><td><span class="perf-score excellent">90</span></td><td>100</td><td>95</td></tr><tr><td><strong>DIPO - Puri</strong></td><td>Region 1</td><td>Jakarta Barat</td><td>269</td><td><span class="rating-stars"><span>4.8</span> <span class="stars-google">★★★★★</span></span></td><td><span class="perf-score solid">86</span></td><td>63</td><td>94</td></tr><tr><td><strong>MUSTIKA - Cibubur</strong></td><td>Region 1</td><td>Bogor</td><td>142</td><td><span class="rating-stars"><span>4.7</span> <span class="stars-google">★★★★☆</span></span></td><td><span class="perf-score solid">83</span></td><td>N/A</td><td>80</td></tr><tr><td><strong>SARDANA - Gatsu</strong></td><td>Region 3</td><td>Medan</td><td>117</td><td><span class="rating-stars"><span>4.6</span> <span class="stars-google">★★★★☆</span></span></td><td><span class="perf-score mid">75</span></td><td>100</td><td>72</td></tr></tbody></table>
+<table class="mini-table dealer-table"><thead><tr><th>Dealer</th><th>Region</th><th>City</th><th style="text-align:center">Reviews</th><th style="text-align:center">★ GOOGLE RATING</th><th style="text-align:center">eNPS<br><span style="font-size:8px;font-weight:400;opacity:.72">100+: 91 / avg: 82</span></th><th style="text-align:center">Sales<br><span style="font-size:8px;font-weight:400;opacity:.72">100+: 88 / avg: 75</span></th><th style="text-align:center">After-sales<br><span style="font-size:8px;font-weight:400;opacity:.72">100+: 92 / avg: 78</span></th></tr></thead><tbody><tr><td><strong>SUN - Probolinggo</strong></td><td>Region 4</td><td>Probolinggo</td><td>124</td><td><span class="rating-stars"><span>5.0</span> <span class="stars-google">★★★★★</span></span></td><td><span class="perf-score excellent">100</span></td><td>100</td><td>100</td></tr><tr><td><strong>SUN - Blitar</strong></td><td>Region 4</td><td>Blitar</td><td>159</td><td><span class="rating-stars"><span>5.0</span> <span class="stars-google">★★★★★</span></span></td><td><span class="perf-score excellent">98</span></td><td>100</td><td>98</td></tr><tr><td><strong>SDM - Margonda</strong></td><td>Region 1</td><td>Depok</td><td>127</td><td><span class="rating-stars"><span>5.0</span> <span class="stars-google">★★★★★</span></span></td><td><span class="perf-score excellent">97</span></td><td>95</td><td>100</td></tr><tr><td><strong>DIPO - Pluit</strong></td><td>Region 1</td><td>Jakarta Utara</td><td>164</td><td><span class="rating-stars"><span>4.9</span> <span class="stars-google">★★★★★</span></span></td><td><span class="perf-score excellent">96</span></td><td>100</td><td>96</td></tr><tr><td><strong>SUN - A. Yani</strong></td><td>Region 4</td><td>Surabaya</td><td>157</td><td><span class="rating-stars"><span>4.9</span> <span class="stars-google">★★★★★</span></span></td><td><span class="perf-score excellent">96</span></td><td>100</td><td>92</td></tr><tr><td><strong>SUN - Malang</strong></td><td>Region 4</td><td>Malang</td><td>117</td><td><span class="rating-stars"><span>4.9</span> <span class="stars-google">★★★★★</span></span></td><td><span class="perf-score excellent">95</span></td><td>88</td><td>92</td></tr><tr><td><strong>SUN - Purwokerto</strong></td><td>Region 2</td><td>Banyumas</td><td>121</td><td><span class="rating-stars"><span>4.9</span> <span class="stars-google">★★★★★</span></span></td><td><span class="perf-score excellent">90</span></td><td>100</td><td>95</td></tr><tr><td><strong>DIPO - Puri</strong></td><td>Region 1</td><td>Jakarta Barat</td><td>269</td><td><span class="rating-stars"><span>4.8</span> <span class="stars-google">★★★★★</span></span></td><td><span class="perf-score solid">86</span></td><td>63</td><td>94</td></tr><tr><td><strong>MUSTIKA - Cibubur</strong></td><td>Region 1</td><td>Bogor</td><td>142</td><td><span class="rating-stars"><span>4.7</span> <span class="stars-google">★★★★☆</span></span></td><td><span class="perf-score solid">83</span></td><td>N/A</td><td>80</td></tr><tr><td><strong>SARDANA - Gatsu</strong></td><td>Region 3</td><td>Medan</td><td>117</td><td><span class="rating-stars"><span>4.6</span> <span class="stars-google">★★★★☆</span></span></td><td><span class="perf-score mid">75</span></td><td>100</td><td>72</td></tr></tbody></table>
 <div class="performance-legend"><span>Color scale:</span><i class="excellent"></i><b>Excellent</b><i class="solid"></i><b>Solid</b><i class="mid"></i><b>Mid</b><i class="lower"></i><b>Lower-mid</b><i class="attention"></i><b>Attention</b><i class="critical"></i><b>Critical</b></div>
 <div class="insight-box compact" style="margin-top:0"><strong>Key finding:</strong> The value of high review volume is clear — these dealers consistently perform above Mitsubishi’s average, proving that activating more customer feedback can strengthen public perception.</div>
 </div>
@@ -1816,21 +1844,18 @@ h1.split-title{margin-bottom:8px}
 <div class="case-stack">
 <div class="case-card">
 <h3>DIPO - Puri</h3>
-<p><strong>269 reviews</strong>Total eNPS: </p>
-<div class="split-row"><span>Sales 63</span></div>
+<p><strong>269 reviews</strong></p>
+<div class="split-row"><span>Total eNPS: 86</span><span>Sales: 63</span><span>After-sales: 94</span></div>
 <em>Largest internal sales / after-sales gap in the 100+ review Mitsubishi set.</em>
 </div>
 <div class="case-card critical">
 <h3>Sardana - Gatsu (Medan)</h3>
-<p><strong>117–119 reviews</strong>eNPS around </p>
-<div class="split-row"><span>Time &amp; Efficiency</span><span>8 / 11 negative</span></div>
+<p><strong>117 reviews</strong></p>
+<div class="split-row"><span>eNPS: 76</span><span>After-sales: 73</span></div>
 <em>The one Mitsubishi dealer appearing in the global bottom 10.</em>
 </div>
 </div>
-<div class="img-placeholder">
-<svg fill="none" height="38" stroke="currentColor" stroke-width="1.3" viewbox="0 0 24 24" width="38"><rect height="18" rx="3" width="18" x="3" y="3"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="m21 15-5-5L5 21"></path></svg>
-<span>Insert image</span>
-</div>
+<img src="DEPLOY/SLIDE-17.jpg" alt="" style="flex:1;min-height:0;border-radius:20px;object-fit:cover;width:100%;display:block">
 </div>
 </main><div class="slide-footer"><img alt="Mitsubishi" class="mitsu-logo-footer-b" src="DEPLOY/mitsu-logo-b.png"/><span>MITSUBISHI INDONESIA · REPUTATION INTELLIGENCE REPORT</span><span class="footer-right">ANALYSIS PERIOD · JANUARY–JUNE 2026</span></div>
 </section><section class="slide section-divider" data-chapter="drivers" data-label="Drivers &amp; barriers" id="slide-18">
@@ -1982,19 +2007,19 @@ h1.split-title{margin-bottom:8px}
 <div class="quad-grid">
 <div class="quad-card">
 <div class="quad-header"><h3>Priority gaps</h3><p>Negative in Mitsubishi but not in the market. These are the clearest areas where the brand is underperforming versus the benchmark</p></div>
-<div class="quad-body"><p><strong>Pricing and Financing</strong>, especially <strong>Transparency</strong> in Pricing</p></div>
+<div class="quad-body" style="padding:0;align-items:stretch"><img src="DEPLOY/21.01.png" alt="" style="flex:1;min-height:0;width:100%;object-fit:cover;display:block"></div>
 </div>
 <div class="quad-card">
 <div class="quad-header"><h3>Shared strengths</h3><p>Positive in both Mitsubishi and the market. These are core strengths to protect and standardise across the network</p></div>
-<div class="quad-body"><p><strong>Staff and Service Quality</strong>, <strong>Atmosphere and Brand Perception</strong>, <strong>Place and Facilities</strong></p></div>
+<div class="quad-body" style="padding:0;align-items:stretch"><img src="DEPLOY/21.02.png" alt="" style="flex:1;min-height:0;width:100%;object-fit:cover;display:block"></div>
 </div>
 <div class="quad-card">
 <div class="quad-header"><h3>Market frictions</h3><p>Negative in both Mitsubishi and the market. These are structural friction points where solving better than competitors can create advantage</p></div>
-<div class="quad-body"><p><strong>Service and Maintenance</strong>, <strong>Time and Efficiency</strong></p></div>
+<div class="quad-body" style="padding:0;align-items:stretch"><img src="DEPLOY/21.03.png" alt="" style="flex:1;min-height:0;width:100%;object-fit:cover;display:block"></div>
 </div>
 <div class="quad-card">
 <div class="quad-header"><h3>Mitsubishi advantages</h3><p>Positive in Mitsubishi but not in the wider market. These are the brand's most ownable strengths and should be amplified.</p></div>
-<div class="quad-body"><p>Customer Experience</p></div>
+<div class="quad-body" style="padding:0;align-items:stretch"><img src="DEPLOY/21.04.png" alt="" style="flex:1;min-height:0;width:100%;object-fit:cover;display:block"></div>
 </div>
 </div>
 </div>
@@ -2020,6 +2045,7 @@ h1.split-title{margin-bottom:8px}
 <p class="eyebrow">05 Recommendations</p>
 <h1>High-priority actions</h1>
 </div>
+<img src="DEPLOY/slide%2023.png" alt="" style="flex:0 0 260px;width:100%;border-radius:14px;object-fit:cover;display:block;min-height:0;margin-bottom:12px">
 <div class="slide-bottom">
 <div class="reco-grid three">
 <div class="reco high"><div class="reco-n">01</div><div><span class="priority-line">High priority / After-sales</span><h3>Standardise booking and waiting-time handling</h3><p>Create a common after-sales journey standard covering appointment confirmation, service start-time, delay updates and vehicle handover.</p></div></div>
@@ -2038,6 +2064,7 @@ h1.split-title{margin-bottom:8px}
 <p class="eyebrow">05 Recommendations</p>
 <h1>Medium-priority actions</h1>
 </div>
+<img src="DEPLOY/slide24.png" alt="" style="flex:0 0 260px;width:100%;border-radius:14px;object-fit:cover;display:block;min-height:0;margin-bottom:12px">
 <div class="slide-bottom">
 <div class="reco-grid three">
 <div class="reco medium"><div class="reco-n">04</div><div><span class="priority-line">Medium priority / After-sales</span><h3>Export after-sales routines from the strongest dealers</h3><p>Use high-performing Mitsubishi dealers to identify repeatable after-sales behaviours: reception, advisor communication, service updates and final handover.</p></div></div>
@@ -2056,6 +2083,7 @@ h1.split-title{margin-bottom:8px}
 <p class="eyebrow">05 Recommendations</p>
 <h1>Longer horizon: validate before scaling network-wide</h1>
 </div>
+<img src="DEPLOY/slide%2025.png" alt="" style="flex:0 0 260px;width:100%;border-radius:14px;object-fit:cover;display:block;min-height:0;margin-bottom:12px">
 <div class="slide-bottom">
 <div class="reco-grid pair">
 <div class="reco lower"><div class="reco-n">07</div><div><span class="priority-line">Longer horizon / After-sales</span><h3>Turn Service and Maintenance into a quality programme</h3><p>Translate maintenance-related complaints into operational checks: diagnosis explanation, repair status updates, delivery timing and post-service follow-up.</p></div></div>
