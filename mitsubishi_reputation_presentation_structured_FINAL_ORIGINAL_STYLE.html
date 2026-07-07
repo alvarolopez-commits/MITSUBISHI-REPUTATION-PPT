@@ -1285,12 +1285,15 @@ h1.split-title{margin-bottom:8px}
 #slide-09 .mini-table th,#slide-09 .mini-table td{padding:3px 6px!important;font-size:10px!important;}
 #slide-09 .panel-title{margin-bottom:6px!important;}
 
-/* ===== SLIDE-21: images fill full card, header overlaid at bottom ===== */
-#slide-21 .quad-card:has(img){position:relative!important;}
-#slide-21 .quad-card:has(img) .quad-header{position:absolute!important;bottom:0!important;left:0!important;right:0!important;z-index:2!important;padding:10px 16px!important;background:linear-gradient(to top,rgba(6,30,62,.97) 0%,rgba(6,30,62,.72) 100%)!important;}
-#slide-21 .quad-card:has(img) .quad-header p{display:none!important;}
-#slide-21 .quad-body:has(img){position:absolute!important;inset:0!important;padding:0!important;z-index:1!important;min-height:0!important;align-items:stretch!important;}
-#slide-21 .quad-body img{width:100%;height:100%;object-fit:cover;display:block}
+/* ===== SLIDE-21: full-card image, Airbnb-style gradient overlay ===== */
+#slide-21 .quad-card{position:relative!important;overflow:hidden!important;}
+#slide-21 .quad-body{position:absolute!important;inset:0!important;padding:0!important;z-index:1!important;display:flex!important;align-items:stretch!important;}
+#slide-21 .quad-body img{width:100%!important;height:100%!important;object-fit:cover!important;display:block!important;position:static!important;}
+#slide-21 .quad-body p{position:absolute!important;top:10px!important;left:10px!important;right:10px!important;z-index:4!important;background:rgba(255,255,255,.88)!important;backdrop-filter:blur(6px)!important;-webkit-backdrop-filter:blur(6px)!important;border-radius:8px!important;padding:5px 10px!important;font-size:11px!important;font-weight:700!important;color:#0b1f3a!important;text-align:center!important;line-height:1.35!important;margin:0!important;}
+#slide-21 .quad-header{position:absolute!important;bottom:0!important;left:0!important;right:0!important;z-index:3!important;background:linear-gradient(to top,rgba(0,10,28,.9) 0%,rgba(0,10,28,.55) 55%,transparent 100%)!important;padding:26px 14px 12px!important;}
+#slide-21 .quad-header h3{color:#fff!important;font-size:13px!important;font-weight:700!important;margin-bottom:2px!important;}
+#slide-21 .quad-header p{font-size:10px!important;color:rgba(200,225,255,.78)!important;line-height:1.35!important;margin:0!important;display:block!important;}
+
 </style></head>
 <body>
 <div class="deck" id="deck">
@@ -1768,7 +1771,7 @@ h1.split-title{margin-bottom:8px}
 <p>of Mitsubishi dealers have fewer than 50 reviews in six months.</p>
 <small>134 of 159 registered dealers</small>
 </div>
-<img src="DEPLOY/SLIDE%2013.png" alt="" style="flex:1;min-height:0;border-radius:20px;object-fit:cover;width:100%;display:block">
+<img src="DEPLOY/SLIDE%2013%20copy.png" alt="" style="flex:1;min-height:0;border-radius:20px;object-fit:cover;width:100%;display:block">
 </div>
 </main><div class="slide-footer"><img alt="Mitsubishi" class="mitsu-logo-footer-b" src="DEPLOY/mitsu-logo-b.png"/><span>MITSUBISHI INDONESIA · REPUTATION INTELLIGENCE REPORT</span><span class="footer-right">ANALYSIS PERIOD · JANUARY–JUNE 2026</span></div>
 </section><section class="slide section-divider" data-chapter="dealer" data-label="Dealer detail" id="slide-14">
@@ -2007,19 +2010,19 @@ h1.split-title{margin-bottom:8px}
 <div class="quad-grid">
 <div class="quad-card">
 <div class="quad-header"><h3>Priority gaps</h3><p>Negative in Mitsubishi but not in the market. These are the clearest areas where the brand is underperforming versus the benchmark</p></div>
-<div class="quad-body" style="padding:0;align-items:stretch"><img src="DEPLOY/21.01.png" alt="" style="flex:1;min-height:0;width:100%;object-fit:cover;display:block"></div>
+<div class="quad-body"><img src="DEPLOY/21.01.png" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block"><p><strong>Pricing and Financing</strong>, especially <strong>Transparency</strong> in Pricing</p></div>
 </div>
 <div class="quad-card">
 <div class="quad-header"><h3>Shared strengths</h3><p>Positive in both Mitsubishi and the market. These are core strengths to protect and standardise across the network</p></div>
-<div class="quad-body" style="padding:0;align-items:stretch"><img src="DEPLOY/21.02.png" alt="" style="flex:1;min-height:0;width:100%;object-fit:cover;display:block"></div>
+<div class="quad-body"><img src="DEPLOY/21.02.png" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block"><p><strong>Staff and Service Quality</strong>, <strong>Atmosphere and Brand Perception</strong>, <strong>Place and Facilities</strong></p></div>
 </div>
 <div class="quad-card">
 <div class="quad-header"><h3>Market frictions</h3><p>Negative in both Mitsubishi and the market. These are structural friction points where solving better than competitors can create advantage</p></div>
-<div class="quad-body" style="padding:0;align-items:stretch"><img src="DEPLOY/21.03.png" alt="" style="flex:1;min-height:0;width:100%;object-fit:cover;display:block"></div>
+<div class="quad-body"><img src="DEPLOY/21.03.png" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block"><p><strong>Service and Maintenance</strong>, <strong>Time and Efficiency</strong></p></div>
 </div>
 <div class="quad-card">
 <div class="quad-header"><h3>Mitsubishi advantages</h3><p>Positive in Mitsubishi but not in the wider market. These are the brand's most ownable strengths and should be amplified.</p></div>
-<div class="quad-body" style="padding:0;align-items:stretch"><img src="DEPLOY/21.04.png" alt="" style="flex:1;min-height:0;width:100%;object-fit:cover;display:block"></div>
+<div class="quad-body"><img src="DEPLOY/21.04.png" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block"><p>Customer Experience</p></div>
 </div>
 </div>
 </div>
