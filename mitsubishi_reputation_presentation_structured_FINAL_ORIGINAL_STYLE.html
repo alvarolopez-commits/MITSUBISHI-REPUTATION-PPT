@@ -1315,21 +1315,8 @@ h1.split-title{margin-bottom:8px}
 #slide-24 .priority-line,#slide-25 .priority-line,#slide-26 .priority-line{font-size:11px!important;}
 #slide-24 .slide-bottom,#slide-25 .slide-bottom,#slide-26 .slide-bottom{margin-top:16px!important;}
 
-/* ===== PRINT / PDF EXPORT ===== */
-.print-btn{position:fixed;bottom:24px;right:24px;z-index:9999;display:flex;align-items:center;gap:8px;padding:10px 18px;background:rgba(255,255,255,.12);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.22);border-radius:10px;color:#fff;font-family:'Montserrat',Inter,Arial,sans-serif;font-size:12px;font-weight:600;letter-spacing:.04em;cursor:pointer;transition:background .18s,box-shadow .18s;box-shadow:0 4px 18px rgba(0,0,0,.28)}
-.print-btn:hover{background:rgba(255,255,255,.22);box-shadow:0 6px 24px rgba(0,0,0,.38)}
-.print-btn svg{flex-shrink:0}
-@media print{
-  @page{size:297mm 167mm;margin:0}
-  *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
-  html,body{width:297mm!important;height:auto!important;overflow:visible!important;background:#050b13!important}
-  .deck{display:block!important;width:297mm!important;height:auto!important;overflow:visible!important;scroll-snap-type:none!important}
-  .slide{width:297mm!important;min-width:0!important;height:167mm!important;page-break-after:always!important;break-after:page!important;overflow:hidden!important;display:flex!important;flex-direction:column!important}
-  .print-btn{display:none!important}
-}
 </style></head>
 <body>
-<button class="print-btn" onclick="window.print()" title="Export to PDF"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"/><rect x="6" y="14" width="12" height="8" rx="1"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/></svg>Export PDF</button>
 <div class="deck" id="deck">
 <section class="slide cover" data-chapter="cover" data-label="Cover" id="slide-01">
 <div class="cover-bg"></div>
@@ -2153,7 +2140,7 @@ Download Report
   const progress=document.getElementById('progress');
   const chapterTabs=[...document.querySelectorAll('.chapter-tab')];
   let index=0; let wheelLock=false;
-  window.downloadReport=function(){const b=new Blob([document.documentElement.outerHTML],{type:'text/html'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='Mitsubishi_Reputation_Intelligence_2026.html';a.click();URL.revokeObjectURL(a.href);};
+  window.downloadReport=function(){const a=document.createElement('a');a.href='MITSUBISHI_Reputation_ppt.pdf';a.download='MITSUBISHI_Reputation_ppt.pdf';a.click();};
   slides.forEach((s,i)=>{const b=document.createElement('button');b.className='dot';b.setAttribute('aria-label','Go to slide '+(i+1));b.onclick=()=>go(i);dots.appendChild(b)});
   const dotEls=[...dots.children];
   const firstByChapter={}; slides.forEach((s,i)=>{const c=s.dataset.chapter;if(c&&!firstByChapter[c])firstByChapter[c]=i});
